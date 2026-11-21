@@ -1,0 +1,70 @@
+{
+  "flow_model": {
+    "gamma_0": {
+      "mae_post_median": 0.010835618935525418,
+      "mae_post_mean": 0.010877546854317188,
+      "rmse_post_mean": 0.01396925002336502,
+      "mae_prior_median": 0.3414330708744353,
+      "mae_ratio_to_prior": 0.03173570418288597,
+      "contraction": 0.9987135824065363,
+      "learned": true
+    },
+    "gamma_1": {
+      "mae_post_median": 0.10531418131673126,
+      "mae_post_mean": 0.10583950579166412,
+      "rmse_post_mean": 0.13530313968658447,
+      "mae_prior_median": 0.7809752909627068,
+      "mae_ratio_to_prior": 0.13484956891134245,
+      "contraction": 0.9770921243380652,
+      "learned": true
+    },
+    "gamma_2": {
+      "mae_post_median": 0.19843782896449558,
+      "mae_post_mean": 0.19936341047286987,
+      "rmse_post_mean": 0.2570900321006775,
+      "mae_prior_median": 0.29897873253119667,
+      "mae_ratio_to_prior": 0.6637188782108098,
+      "contraction": 0.4574926992427436,
+      "learned": true
+    },
+    "gamma_3": {
+      "mae_post_median": 0.010052858794020268,
+      "mae_post_mean": 0.010047783143818378,
+      "rmse_post_mean": 0.011616957373917103,
+      "mae_prior_median": 0.01005947492604714,
+      "mae_ratio_to_prior": 0.9993422984722848,
+      "contraction": 0.026550050935205904,
+      "learned": false
+    }
+  },
+  "model_free_gbr_noise_free_curves": {
+    "gamma_0": {
+      "r2": 0.9985031276266064,
+      "mae_ratio_to_prior": 0.03755255734085239
+    },
+    "gamma_1": {
+      "r2": 0.9671644312999436,
+      "mae_ratio_to_prior": 0.17739561593568068
+    },
+    "gamma_2": {
+      "r2": 0.2652417450925211,
+      "mae_ratio_to_prior": 0.8242200461923107
+    },
+    "gamma_3": {
+      "r2": -0.0003647316749344487,
+      "mae_ratio_to_prior": 1.0000753728028686
+    }
+  },
+  "train_info": {
+    "best_epoch": 297,
+    "epochs_run": 300,
+    "best_val_loss": 0.6643907947540283,
+    "wall_s": 1000.0884099006653
+  },
+  "v1_for_reference": {
+    "n_train": 400,
+    "gamma_2_mae_ratio": 1.002,
+    "gamma_3_mae_ratio": 1.003,
+    "note": "v1 reused main-model normalisation; constant sigma=1e-4 inputs were ~1e4 sd"
+  }
+}

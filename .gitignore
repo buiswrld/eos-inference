@@ -1,0 +1,16 @@
+# artefacts (live under --root, default ./ns_eos_project)
+ns_eos_project/
+*.pt
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+smoke_run/
+.venv/
+resume_run/
+*.log

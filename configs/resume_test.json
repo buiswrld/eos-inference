@@ -1,0 +1,12 @@
+{
+  "_comment": "Interrupt-and-resume test: small run with short checkpoint intervals.",
+  "run_tag": "resume",
+  "data": {"n_samples": 1500, "attempt_factor": 4, "n_probe": 40, "shard_size": 100},
+  "model": {"d_embed": 32, "d_hidden_flow": 64, "time_embed_dim": 16, "n_heads": 2, "n_attn_layers": 1, "n_res_blocks": 1},
+  "train": {"batch_size": 32, "num_workers": 0, "max_epochs": 400, "patience": 400, "ensemble_seeds": [0]},
+  "grid": {"shape": [6, 6, 4, 3], "n_validate": 20, "block": 40},
+  "dynesty": {"nlive": 300, "dlogz": 0.05, "maxcall": 3000000, "checkpoint_every": 5},
+  "real": {"download_gw": false},
+  "sampling": {"n_steps": 5, "n_eval_samples": 50, "n_real_samples": 400},
+  "derived": {"n_test_catalogs": 4, "n_samples_per_catalog": 4, "n_real": 20}
+}

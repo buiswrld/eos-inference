@@ -1,0 +1,11 @@
+{
+  "data_generation_s": 51926.02228021622,
+  "data_generation_cores": 16.0,
+  "train_main_s": 8604.307791471481,
+  "train_ensemble_s": 20656.351770162582,
+  "grid_s": 7134.92964887619,
+  "sbi_real_10k_s": 0.8354911999922479,
+  "dynesty_real_s": 116.52967929840088,
+  "dynesty_synth_median_s": 236.36577987670898,
+  "sbi_is_real_s": 38.076828100020066
+}

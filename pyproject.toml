@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nseos"
+version = "2.0.0"
+description = "Amortised multi-messenger neutron-star EOS inference via heterogeneous set aggregation (revision v2)"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "torch>=2.1",
+  "scikit-learn>=1.2",
+  "matplotlib>=3.6",
+  "tqdm",
+  "h5py",
+  "dynesty>=2.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+nseos = "nseos.cli:main"
+
+[tool.setuptools]
+packages = ["nseos"]
+
+[tool.setuptools.package-data]
+nseos = ["sly4.dat"]
