@@ -1,0 +1,28 @@
+{
+  "members": [
+    {
+      "seed": 0,
+      "best_epoch": 367,
+      "epochs_run": 400,
+      "best_val_loss": 1.0911382391611735,
+      "wall_s": 8604.307791471481,
+      "n_params": 7679748
+    },
+    {
+      "seed": 1,
+      "best_epoch": 396,
+      "epochs_run": 400,
+      "best_val_loss": 1.0911269985198975,
+      "wall_s": 8679.78810763359,
+      "n_params": 7679748
+    },
+    {
+      "seed": 2,
+      "best_epoch": 115,
+      "epochs_run": 156,
+      "best_val_loss": 1.1015419065475465,
+      "wall_s": 3372.2558710575104,
+      "n_params": 7679748
+    }
+  ]
+}

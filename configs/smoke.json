@@ -1,0 +1,132 @@
+{
+  "_comment": "Tiny end-to-end smoke test on CPU (~20 min). Numbers are meaningless; it only checks that every stage runs. Use: python -m nseos.cli all --config configs/smoke.json --root smoke_run",
+  "run_tag": "smoke",
+  "data": {
+    "n_samples": 300,
+    "attempt_factor": 8,
+    "n_probe": 40
+  },
+  "model": {
+    "d_embed": 32,
+    "d_hidden_flow": 64,
+    "time_embed_dim": 16,
+    "n_heads": 2,
+    "n_attn_layers": 1,
+    "n_res_blocks": 1
+  },
+  "train": {
+    "batch_size": 32,
+    "num_workers": 0,
+    "max_epochs": 2,
+    "patience": 2,
+    "ensemble_seeds": [
+      0,
+      1
+    ]
+  },
+  "sampling": {
+    "n_steps": 5,
+    "n_eval_samples": 50,
+    "n_real_samples": 400
+  },
+  "evaluate": {
+    "nested_n_theta": 8,
+    "nested_N": [
+      1,
+      5,
+      20
+    ],
+    "tarp_n": 40
+  },
+  "speed": {
+    "n_list": [
+      200
+    ],
+    "steps": [
+      5
+    ],
+    "throughput_catalogs": 16,
+    "conv_catalogs": 8,
+    "conv_ref_steps": 10
+  },
+  "ablation": {
+    "seeds": [
+      0
+    ],
+    "max_epochs": 1,
+    "patience": 1,
+    "n_eval": 30
+  },
+  "messenger": {
+    "max_epochs": 1,
+    "patience": 1
+  },
+  "zero_noise": {
+    "n_train": 150,
+    "n_test": 30,
+    "max_epochs": 1,
+    "patience": 1
+  },
+  "fisher": {
+    "n_theta": 3,
+    "n_pc": 30
+  },
+  "grid": {
+    "shape": [
+      4,
+      4,
+      3,
+      2
+    ],
+    "n_validate": 20
+  },
+  "dynesty": {
+    "nlive": 40,
+    "dlogz": 5.0,
+    "maxcall": 20000
+  },
+  "real": {
+    "download_gw": false
+  },
+  "synth_ref": {
+    "n_per_bin": 1,
+    "bins": [
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "n_floor": 1,
+    "n_sbi_samples": 400
+  },
+  "compare": {
+    "n_subsample_repeats": 3,
+    "kde_grid": 100,
+    "n_band_curves": 15
+  },
+  "derived": {
+    "n_test_catalogs": 4,
+    "n_samples_per_catalog": 8,
+    "n_real": 20
+  },
+  "economics": {
+    "subset_n_samples": 50,
+    "loo_n_samples": 10
+  },
+  "importance": {
+    "n_real": 2000,
+    "n_synth": 1000,
+    "n_test_catalogs": 4,
+    "n_test": 500,
+    "defensive": 0.1
+  },
+  "convergence": {
+    "n_theta": 4,
+    "n_pc_hi": 60,
+    "rtol_hi": 1e-07
+  }
+}

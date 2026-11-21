@@ -1,0 +1,48 @@
+{
+  "n_attempted": 157447,
+  "n_accepted": 100000,
+  "acceptance": 0.6351343626744238,
+  "rejections": {
+    "mmax_below_min": 57447
+  },
+  "wall_s": 51926.02228021622,
+  "n_cores": 16,
+  "sim_cfg": {
+    "N_MIN": 1,
+    "N_MAX": 50,
+    "DIRICHLET_ALPHA": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "GW_M_LO": 1.1,
+    "GW_M_HI": 2.0,
+    "GW_SIG_LT": [
+      40.0,
+      800.0
+    ],
+    "GW_SIG_MC": [
+      0.0005,
+      0.03
+    ],
+    "NICER_M_LO": 1.2,
+    "NICER_M_HI": 2.2,
+    "NICER_SIG_M": [
+      0.02,
+      0.2
+    ],
+    "NICER_SIG_R": [
+      0.3,
+      1.6
+    ],
+    "PSR_M_LO": 1.4,
+    "PSR_M_HI": 2.5,
+    "PSR_SIG_M": [
+      0.01,
+      0.25
+    ],
+    "MMAX_MIN": 1.5,
+    "BRANCH_MMIN_MAX": 1.0
+  },
+  "n_pc": 30
+}

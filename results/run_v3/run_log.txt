@@ -1,0 +1,990 @@
+
+##### run started 2026-11-18 08:46:14 : <HOME>\Documents\neutronstareos\ns-eos-amortized\nseos\cli.py all --root <ROOT> --set real.download_gw=false --log <ROOT>.log
+
+======================================================================
+== stage: simulate
+======================================================================
+Generating 100000 samples (indices 0..399999) on 16 cores
+
+Split: 70000 train / 15000 val / 15000 test
+prior probe: 65.9% of box draws accepted
+truncated prior median [ 1.4257  0.4792  0.0297 -0.    ] std [0.4154 0.9037 0.3455 0.0115]
+== simulate done in 871.4 min
+
+======================================================================
+== stage: train
+======================================================================
+[main] ep    0 train 1.7349 val 1.6329 (best 1.6329 @ 0)
+[main] ep    5 train 1.1687 val 1.1889 (best 1.1819 @ 4)
+[main] ep   10 train 1.1503 val 1.1348 (best 1.1348 @ 10)
+[main] ep   15 train 1.1468 val 1.1351 (best 1.1340 @ 12)
+[main] ep   20 train 1.1359 val 1.1351 (best 1.1332 @ 17)
+[main] ep   25 train 1.1411 val 1.1247 (best 1.1233 @ 23)
+[main] ep   30 train 1.1300 val 1.1212 (best 1.1212 @ 30)
+[main] ep   35 train 1.1297 val 1.1267 (best 1.1212 @ 30)
+[main] ep   40 train 1.1245 val 1.1272 (best 1.1212 @ 30)
+[main] ep   45 train 1.1242 val 1.1145 (best 1.1145 @ 45)
+[main] ep   50 train 1.1225 val 1.1219 (best 1.1145 @ 45)
+[main] ep   55 train 1.1215 val 1.1136 (best 1.1136 @ 55)
+[main] ep   60 train 1.1234 val 1.1216 (best 1.1136 @ 55)
+[main] ep   65 train 1.1196 val 1.1144 (best 1.1100 @ 64)
+[main] ep   70 train 1.1239 val 1.1230 (best 1.1100 @ 64)
+[main] ep   75 train 1.1192 val 1.1060 (best 1.1060 @ 75)
+[main] ep   80 train 1.1171 val 1.1181 (best 1.1060 @ 75)
+[main] ep   85 train 1.1170 val 1.1080 (best 1.1060 @ 75)
+[main] ep   90 train 1.1126 val 1.1089 (best 1.1060 @ 75)
+[main] ep   95 train 1.1154 val 1.1097 (best 1.1060 @ 75)
+[main] ep  100 train 1.1105 val 1.1113 (best 1.1044 @ 99)
+[main] ep  105 train 1.1141 val 1.1104 (best 1.1044 @ 99)
+[main] ep  110 train 1.1149 val 1.1072 (best 1.1044 @ 99)
+[main] ep  115 train 1.1150 val 1.1041 (best 1.1041 @ 115)
+[main] ep  120 train 1.1173 val 1.1033 (best 1.1033 @ 120)
+[main] ep  125 train 1.1088 val 1.1052 (best 1.1033 @ 120)
+[main] ep  130 train 1.1103 val 1.1083 (best 1.1033 @ 120)
+[main] ep  135 train 1.1131 val 1.1073 (best 1.1032 @ 133)
+[main] ep  140 train 1.1143 val 1.1030 (best 1.1030 @ 140)
+[main] ep  145 train 1.1015 val 1.1063 (best 1.1004 @ 143)
+[main] ep  150 train 1.1071 val 1.1025 (best 1.1004 @ 143)
+[main] ep  155 train 1.1063 val 1.1006 (best 1.1003 @ 154)
+[main] ep  160 train 1.1062 val 1.1003 (best 1.1003 @ 160)
+[main] ep  165 train 1.1049 val 1.1039 (best 1.1003 @ 160)
+[main] ep  170 train 1.1070 val 1.0996 (best 1.0996 @ 170)
+[main] ep  175 train 1.1112 val 1.1016 (best 1.0996 @ 170)
+[main] ep  180 train 1.1060 val 1.1019 (best 1.0996 @ 170)
+[main] ep  185 train 1.1033 val 1.1010 (best 1.0996 @ 183)
+[main] ep  190 train 1.1151 val 1.1018 (best 1.0992 @ 187)
+[main] ep  195 train 1.1067 val 1.1009 (best 1.0986 @ 193)
+[main] ep  200 train 1.1049 val 1.1002 (best 1.0986 @ 193)
+[main] ep  205 train 1.1054 val 1.0979 (best 1.0979 @ 205)
+[main] ep  210 train 1.1003 val 1.0996 (best 1.0973 @ 206)
+[main] ep  215 train 1.1002 val 1.0991 (best 1.0971 @ 212)
+[main] ep  220 train 1.1009 val 1.0960 (best 1.0960 @ 220)
+[main] ep  225 train 1.1034 val 1.1003 (best 1.0960 @ 220)
+[main] ep  230 train 1.0994 val 1.0994 (best 1.0960 @ 220)
+[main] ep  235 train 1.1095 val 1.0964 (best 1.0960 @ 220)
+[main] ep  240 train 1.1105 val 1.0962 (best 1.0960 @ 220)
+[main] ep  245 train 1.1056 val 1.0985 (best 1.0957 @ 242)
+[main] ep  250 train 1.1061 val 1.0980 (best 1.0949 @ 246)
+[main] ep  255 train 1.1038 val 1.0967 (best 1.0949 @ 246)
+[main] ep  260 train 1.1038 val 1.0959 (best 1.0949 @ 246)
+[main] ep  265 train 1.0998 val 1.0963 (best 1.0947 @ 264)
+[main] ep  270 train 1.0987 val 1.0946 (best 1.0946 @ 267)
+[main] ep  275 train 1.0954 val 1.0954 (best 1.0946 @ 267)
+[main] ep  280 train 1.0972 val 1.0966 (best 1.0942 @ 276)
+[main] ep  285 train 1.1020 val 1.0947 (best 1.0941 @ 282)
+[main] ep  290 train 1.0946 val 1.0955 (best 1.0941 @ 282)
+[main] ep  295 train 1.0939 val 1.0945 (best 1.0939 @ 294)
+[main] ep  300 train 1.0998 val 1.0953 (best 1.0939 @ 294)
+[main] ep  305 train 1.0947 val 1.0942 (best 1.0938 @ 304)
+[main] ep  310 train 1.0998 val 1.0934 (best 1.0934 @ 307)
+[main] ep  315 train 1.0973 val 1.0933 (best 1.0932 @ 314)
+[main] ep  320 train 1.0951 val 1.0939 (best 1.0924 @ 319)
+[main] ep  325 train 1.0953 val 1.0924 (best 1.0920 @ 323)
+[main] ep  330 train 1.0893 val 1.0923 (best 1.0920 @ 323)
+[main] ep  335 train 1.0972 val 1.0925 (best 1.0920 @ 323)
+[main] ep  340 train 1.0917 val 1.0924 (best 1.0917 @ 337)
+[main] ep  345 train 1.0925 val 1.0920 (best 1.0917 @ 337)
+[main] ep  350 train 1.0972 val 1.0919 (best 1.0915 @ 347)
+[main] ep  355 train 1.0995 val 1.0913 (best 1.0913 @ 355)
+[main] ep  360 train 1.0946 val 1.0920 (best 1.0913 @ 355)
+[main] ep  365 train 1.0969 val 1.0921 (best 1.0913 @ 355)
+[main] ep  370 train 1.0965 val 1.0919 (best 1.0911 @ 367)
+[main] ep  375 train 1.0950 val 1.0920 (best 1.0911 @ 367)
+[main] ep  380 train 1.0975 val 1.0914 (best 1.0911 @ 367)
+[main] ep  385 train 1.0978 val 1.0915 (best 1.0911 @ 367)
+[main] ep  390 train 1.0979 val 1.0915 (best 1.0911 @ 367)
+[main] ep  395 train 1.1032 val 1.0919 (best 1.0911 @ 367)
+[main] best val 1.0911 @ epoch 367 / 400 epochs, 2.39 h
+[main_s1] ep    0 train 1.7465 val 1.5712 (best 1.5712 @ 0)
+[main_s1] ep    5 train 1.1746 val 1.1739 (best 1.1648 @ 3)
+[main_s1] ep   10 train 1.1538 val 1.1419 (best 1.1419 @ 10)
+[main_s1] ep   15 train 1.1438 val 1.1383 (best 1.1383 @ 15)
+[main_s1] ep   20 train 1.1388 val 1.1306 (best 1.1270 @ 18)
+[main_s1] ep   25 train 1.1403 val 1.1309 (best 1.1270 @ 18)
+[main_s1] ep   30 train 1.1304 val 1.1194 (best 1.1194 @ 30)
+[main_s1] ep   35 train 1.1268 val 1.1244 (best 1.1194 @ 30)
+[main_s1] ep   40 train 1.1240 val 1.1224 (best 1.1194 @ 30)
+[main_s1] ep   45 train 1.1252 val 1.1149 (best 1.1139 @ 42)
+[main_s1] ep   50 train 1.1218 val 1.1248 (best 1.1139 @ 42)
+[main_s1] ep   55 train 1.1212 val 1.1162 (best 1.1119 @ 53)
+[main_s1] ep   60 train 1.1208 val 1.1148 (best 1.1119 @ 53)
+[main_s1] ep   65 train 1.1252 val 1.1095 (best 1.1095 @ 65)
+[main_s1] ep   70 train 1.1122 val 1.1131 (best 1.1095 @ 65)
+[main_s1] ep   75 train 1.1193 val 1.1149 (best 1.1095 @ 65)
+[main_s1] ep   80 train 1.1176 val 1.1139 (best 1.1088 @ 77)
+[main_s1] ep   85 train 1.1159 val 1.1074 (best 1.1074 @ 85)
+[main_s1] ep   90 train 1.1148 val 1.1081 (best 1.1074 @ 85)
+[main_s1] ep   95 train 1.1187 val 1.1147 (best 1.1058 @ 91)
+[main_s1] ep  100 train 1.1175 val 1.1097 (best 1.1058 @ 91)
+[main_s1] ep  105 train 1.1089 val 1.1060 (best 1.1058 @ 102)
+[main_s1] ep  110 train 1.1095 val 1.1092 (best 1.1052 @ 109)
+[main_s1] ep  115 train 1.1144 val 1.1087 (best 1.1044 @ 112)
+[main_s1] ep  120 train 1.1138 val 1.1046 (best 1.1043 @ 119)
+[main_s1] ep  125 train 1.1038 val 1.1061 (best 1.1017 @ 124)
+[main_s1] ep  130 train 1.1123 val 1.1116 (best 1.1017 @ 124)
+[main_s1] ep  135 train 1.1054 val 1.1024 (best 1.1017 @ 124)
+[main_s1] ep  140 train 1.1090 val 1.1065 (best 1.1017 @ 124)
+[main_s1] ep  145 train 1.1082 val 1.1005 (best 1.1005 @ 145)
+[main_s1] ep  150 train 1.1105 val 1.1021 (best 1.1005 @ 145)
+[main_s1] ep  155 train 1.1112 val 1.1052 (best 1.0999 @ 151)
+[main_s1] ep  160 train 1.1075 val 1.1024 (best 1.0999 @ 151)
+[main_s1] ep  165 train 1.1081 val 1.1004 (best 1.0999 @ 151)
+[main_s1] ep  170 train 1.1085 val 1.1023 (best 1.0992 @ 166)
+[main_s1] ep  175 train 1.1036 val 1.1010 (best 1.0992 @ 166)
+[main_s1] ep  180 train 1.1078 val 1.1005 (best 1.0992 @ 166)
+[main_s1] ep  185 train 1.1055 val 1.1011 (best 1.0987 @ 182)
+[main_s1] ep  190 train 1.1044 val 1.0993 (best 1.0987 @ 182)
+[main_s1] ep  195 train 1.0980 val 1.1045 (best 1.0987 @ 182)
+[main_s1] ep  200 train 1.1086 val 1.1018 (best 1.0987 @ 198)
+[main_s1] ep  205 train 1.1038 val 1.0991 (best 1.0987 @ 198)
+[main_s1] ep  210 train 1.1054 val 1.0972 (best 1.0971 @ 209)
+[main_s1] ep  215 train 1.1027 val 1.1005 (best 1.0963 @ 212)
+[main_s1] ep  220 train 1.1023 val 1.0990 (best 1.0963 @ 212)
+[main_s1] ep  225 train 1.1012 val 1.0989 (best 1.0963 @ 212)
+[main_s1] ep  230 train 1.1007 val 1.0997 (best 1.0963 @ 212)
+[main_s1] ep  235 train 1.0999 val 1.0979 (best 1.0962 @ 232)
+[main_s1] ep  240 train 1.1047 val 1.1005 (best 1.0962 @ 232)
+[main_s1] ep  245 train 1.1005 val 1.0992 (best 1.0958 @ 243)
+[main_s1] ep  250 train 1.1029 val 1.0959 (best 1.0954 @ 248)
+[main_s1] ep  255 train 1.1034 val 1.0961 (best 1.0954 @ 248)
+[main_s1] ep  260 train 1.0988 val 1.0958 (best 1.0954 @ 248)
+[main_s1] ep  265 train 1.0996 val 1.0948 (best 1.0948 @ 265)
+[main_s1] ep  270 train 1.1038 val 1.0953 (best 1.0948 @ 265)
+[main_s1] ep  275 train 1.0933 val 1.0964 (best 1.0948 @ 265)
+[main_s1] ep  280 train 1.1034 val 1.0944 (best 1.0944 @ 280)
+[main_s1] ep  285 train 1.0965 val 1.0953 (best 1.0944 @ 280)
+[main_s1] ep  290 train 1.1015 val 1.0941 (best 1.0941 @ 290)
+[main_s1] ep  295 train 1.0962 val 1.0942 (best 1.0940 @ 294)
+[main_s1] ep  300 train 1.0970 val 1.0942 (best 1.0935 @ 296)
+[main_s1] ep  305 train 1.0975 val 1.0932 (best 1.0932 @ 305)
+[main_s1] ep  310 train 1.0989 val 1.0942 (best 1.0930 @ 309)
+[main_s1] ep  315 train 1.0953 val 1.0933 (best 1.0929 @ 311)
+[main_s1] ep  320 train 1.0948 val 1.0927 (best 1.0927 @ 320)
+[main_s1] ep  325 train 1.0961 val 1.0924 (best 1.0921 @ 324)
+[main_s1] ep  330 train 1.0887 val 1.0930 (best 1.0921 @ 324)
+[main_s1] ep  335 train 1.0980 val 1.0928 (best 1.0921 @ 324)
+[main_s1] ep  340 train 1.0968 val 1.0931 (best 1.0921 @ 324)
+[main_s1] ep  345 train 1.1041 val 1.0920 (best 1.0920 @ 345)
+[main_s1] ep  350 train 1.0975 val 1.0925 (best 1.0918 @ 348)
+[main_s1] ep  355 train 1.0920 val 1.0926 (best 1.0918 @ 348)
+[main_s1] ep  360 train 1.0983 val 1.0922 (best 1.0918 @ 348)
+[main_s1] ep  365 train 1.0965 val 1.0920 (best 1.0918 @ 348)
+[main_s1] ep  370 train 1.0950 val 1.0919 (best 1.0916 @ 369)
+[main_s1] ep  375 train 1.0896 val 1.0919 (best 1.0916 @ 369)
+[main_s1] ep  380 train 1.0970 val 1.0915 (best 1.0915 @ 380)
+[main_s1] ep  385 train 1.0941 val 1.0915 (best 1.0915 @ 380)
+[main_s1] ep  390 train 1.0921 val 1.0916 (best 1.0914 @ 386)
+[main_s1] ep  395 train 1.0961 val 1.0915 (best 1.0914 @ 386)
+[main_s1] best val 1.0911 @ epoch 396 / 400 epochs, 2.41 h
+[main_s2] ep    0 train 1.7132 val 1.6183 (best 1.6183 @ 0)
+[main_s2] ep    5 train 1.1746 val 1.1536 (best 1.1536 @ 5)
+[main_s2] ep   10 train 1.1534 val 1.1335 (best 1.1335 @ 10)
+[main_s2] ep   15 train 1.1424 val 1.1352 (best 1.1278 @ 11)
+[main_s2] ep   20 train 1.1391 val 1.1276 (best 1.1272 @ 17)
+[main_s2] ep   25 train 1.1354 val 1.1363 (best 1.1272 @ 17)
+[main_s2] ep   30 train 1.1335 val 1.1300 (best 1.1195 @ 26)
+[main_s2] ep   35 train 1.1289 val 1.1225 (best 1.1195 @ 26)
+[main_s2] ep   40 train 1.1269 val 1.1168 (best 1.1168 @ 40)
+[main_s2] ep   45 train 1.1182 val 1.1239 (best 1.1168 @ 40)
+[main_s2] ep   50 train 1.1264 val 1.1256 (best 1.1152 @ 49)
+[main_s2] ep   55 train 1.1251 val 1.1171 (best 1.1152 @ 49)
+[main_s2] ep   60 train 1.1188 val 1.1154 (best 1.1118 @ 57)
+[main_s2] ep   65 train 1.1212 val 1.1141 (best 1.1118 @ 57)
+[main_s2] ep   70 train 1.1164 val 1.1111 (best 1.1111 @ 70)
+[main_s2] ep   75 train 1.1192 val 1.1158 (best 1.1094 @ 71)
+[main_s2] ep   80 train 1.1148 val 1.1204 (best 1.1089 @ 78)
+[main_s2] ep   85 train 1.1201 val 1.1065 (best 1.1065 @ 85)
+[main_s2] ep   90 train 1.1132 val 1.1086 (best 1.1058 @ 87)
+[main_s2] ep   95 train 1.1151 val 1.1141 (best 1.1058 @ 87)
+[main_s2] ep  100 train 1.1089 val 1.1149 (best 1.1058 @ 87)
+[main_s2] ep  105 train 1.1160 val 1.1040 (best 1.1040 @ 105)
+[main_s2] ep  110 train 1.1162 val 1.1087 (best 1.1040 @ 105)
+[main_s2] ep  115 train 1.1092 val 1.1015 (best 1.1015 @ 115)
+[main_s2] ep  120 train 1.1131 val 1.1083 (best 1.1015 @ 115)
+[main_s2] ep  125 train 1.1094 val 1.1016 (best 1.1015 @ 115)
+[main_s2] ep  130 train 1.1104 val 1.1054 (best 1.1015 @ 115)
+[main_s2] ep  135 train 1.1143 val 1.1044 (best 1.1015 @ 115)
+[main_s2] ep  140 train 1.1064 val 1.1056 (best 1.1015 @ 115)
+[main_s2] ep  145 train 1.1130 val 1.1035 (best 1.1015 @ 115)
+[main_s2] ep  150 train 1.1127 val 1.1034 (best 1.1015 @ 115)
+[main_s2] ep  155 train 1.1067 val 1.1017 (best 1.1015 @ 115)
+[main_s2] early stop at epoch 155
+[main_s2] best val 1.1015 @ epoch 115 / 156 epochs, 0.94 h
+{'seed': 0, 'best_epoch': 367, 'epochs_run': 400, 'best_val_loss': 1.0911382391611735, 'wall_s': 8604.307791471481, 'n_params': 7679748}
+{'seed': 1, 'best_epoch': 396, 'epochs_run': 400, 'best_val_loss': 1.0911269985198975, 'wall_s': 8679.78810763359, 'n_params': 7679748}
+{'seed': 2, 'best_epoch': 115, 'epochs_run': 156, 'best_val_loss': 1.1015419065475465, 'wall_s': 3372.2558710575104, 'n_params': 7679748}
+== train done in 344.4 min
+
+======================================================================
+== stage: evaluate
+======================================================================
+[cache] loaded run main
+[cache] loaded run main_s1
+[cache] loaded run main_s2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main model (test split)
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.1093     0.3413   0.320        0.875
+ gamma_1    0.5527     0.7651   0.722        0.401
+ gamma_2    0.2954     0.3005   0.983        0.044
+ gamma_3    0.0100     0.0100   1.001        0.013
+coverage error per param: [0.0019 0.0029 0.0075 0.0033]; TARP max dev 0.029
+permutation dev 1.91e-06, padding dev 1.91e-06
+== evaluate done in 117.3 min
+
+======================================================================
+== stage: grid
+======================================================================
+grid: 1000 / 20000 points
+grid: 2000 / 20000 points
+grid: 3000 / 20000 points
+grid: 4000 / 20000 points
+grid: 5000 / 20000 points
+grid: 6000 / 20000 points
+grid: 7000 / 20000 points
+grid: 8000 / 20000 points
+grid: 9000 / 20000 points
+grid: 10000 / 20000 points
+grid: 11000 / 20000 points
+grid: 12000 / 20000 points
+grid: 13000 / 20000 points
+grid: 14000 / 20000 points
+grid: 15000 / 20000 points
+grid: 16000 / 20000 points
+grid: 17000 / 20000 points
+grid: 18000 / 20000 points
+grid: 19000 / 20000 points
+grid: 20000 / 20000 points
+{'abs_err_R_km': {'median': 0.004600761633076544, 'p95': 0.06829160283567504, 'p99': 0.16563225494754974, 'max': 0.4479078747934633}, 'abs_err_logLambda': {'median': 0.003159717060194467, 'p95': 0.06589094497028025, 'p99': 0.17451205109449264, 'max': 0.6912364923011103}, 'abs_err_Mmax': {'median': 0.001587510108947754, 'p95': 0.00567704439163208, 'p99': 0.008121216669678688, 'max': 0.011970758438110352}, 'frac_R_err_gt_0.1km': 0.030172601191252556, 'support_accuracy': 1.0, 'support_false_accept': 0.0, 'support_false_reject': 0.0, 'n_theta': 1000, 'n_probe': 1000, 'loglike_ms_per_eval_N8': 2.4287615999928676, 'frac_tov_ok': 1.0, 'shape': [20, 20, 10, 5], 'grid_s': 7134.92964887619}
+== grid done in 118.9 min
+
+======================================================================
+== stage: realdata
+======================================================================
+  GW170817: Lt = 405.9 ± 246.9, Mc = 1.1869 ± 0.0019  [parsed GW170817_GWTC-1.hdf5:/IMRPhenomPv2NRT_lowSpin_posterior (8078 samples)]
+  GW190425: Lt = 380.8 ± 389.2, Mc = 1.4357 ± 0.0137  [parsed GW190425_posterior_samples.h5:/PhenomDNRT-LS/posterior_samples (53945 samples)]
+[dedup] SBI 10000 samples in 835.5 ms | derived {'frac_outside_training_support': 0.0, 'frac_Mmax_below_2': 0.002, 'Mmax': {'n_valid': 2000, 'median': 2.54433249482667, 'ci90': [2.21442273700222, 2.8838893165301225], 'ci68': [2.340900368932026, 2.7502953835832025]}, 'R14': {'n_valid': 2000, 'median': 12.218515882623308, 'ci90': [11.461955505356938, 12.936490309367434], 'ci68': [11.765653238968694, 12.653157835407246]}, 'L14': {'n_valid': 2000, 'median': 418.02609594168894, 'ci90': [260.859200691623, 639.6456971763596], 'ci68': [317.2428045136037, 538.6800778854332]}}
+  GW170817: Lt = 405.9 ± 246.9, Mc = 1.1869 ± 0.0019  [parsed GW170817_GWTC-1.hdf5:/IMRPhenomPv2NRT_lowSpin_posterior (8078 samples)]
+  GW190425: Lt = 380.8 ± 389.2, Mc = 1.4357 ± 0.0137  [parsed GW190425_posterior_samples.h5:/PhenomDNRT-LS/posterior_samples (53945 samples)]
+[duplicate] SBI 10000 samples in 835.5 ms | derived {'frac_outside_training_support': 0.0, 'frac_Mmax_below_2': 0.0015, 'Mmax': {'n_valid': 2000, 'median': 2.5311885374155936, 'ci90': [2.2086429869346063, 2.880792352278875], 'ci68': [2.3296144095565703, 2.742609283149575]}, 'R14': {'n_valid': 2000, 'median': 12.206542329775605, 'ci90': [11.433944901140586, 12.939784556032471], 'ci68': [11.740985389893453, 12.649852366338722]}, 'L14': {'n_valid': 2000, 'median': 414.42737466470203, 'ci90': [255.22483572434464, 638.0823052498394], 'ci68': [312.8054613066397, 536.9841610882299]}}
+== realdata done in 26.3 min
+
+======================================================================
+== stage: reference-real
+======================================================================
+dynesty: 3 runs to do (0 cached) on 3 processes
+dynesty seed 1: 1.9 min, ncall 35761, ESS 1802, logZ -19.01±0.06
+dynesty seed 2: 1.9 min, ncall 35322, ESS 1755, logZ -19.10±0.07
+dynesty seed 1: 1.9 min, ncall 34904, ESS 1760, logZ -19.08±0.07
+== reference-real done in 2.0 min
+
+======================================================================
+== stage: compare-real
+======================================================================
+
+[dedup] JS (bits, n=1802): [0.0014 0.0011 0.0008 0.0008] ± [0.0005 0.0004 0.0004 0.0003]
+   SBI-vs-SBI floor: [0.0017 0.0012 0.0008 0.0008] | dynesty-vs-dynesty floor: [0.0006 0.0003 0.0003 0.0003]
+   C2ST 0.490 (floor 0.497) | std ratio [1.035 1.027 1.015 0.993] | Δmean/σ [ 0.022 -0.029 -0.033 -0.005]
+   derived SBI {'n_valid': 2000, 'median': 12.218515882623308, 'ci90': [11.461955505356938, 12.936490309367434], 'ci68': [11.765653238968694, 12.653157835407246]} vs dynesty {'n_valid': 2000, 'median': 12.192993821304032, 'ci90': [11.478468225350298, 12.9461502357161], 'ci68': [11.75768829554379, 12.670131026648475]}
+
+[duplicate] JS (bits, n=1760): [0.0015 0.0011 0.0007 0.001 ] ± [0.0005 0.0004 0.0004 0.0004]
+   SBI-vs-SBI floor: [0.0018 0.0012 0.0008 0.0007]
+   C2ST 0.499 (floor nan) | std ratio [1.034 1.019 1.01  0.992] | Δmean/σ [ 0.021 -0.034 -0.01  -0.012]
+   derived SBI {'n_valid': 2000, 'median': 12.206542329775605, 'ci90': [11.433944901140586, 12.939784556032471], 'ci68': [11.740985389893453, 12.649852366338722]} vs dynesty {'n_valid': 2000, 'median': 12.188161337076734, 'ci90': [11.4547579564991, 12.903948580503666], 'ci68': [11.75736121156128, 12.663229607144446]}
+== compare-real done in 32.5 min
+
+======================================================================
+== stage: identifiability
+======================================================================
+   current: posterior sd / prior sd (median) = [0.366 0.757 0.992 1.   ] | constrained directions = 1.0
+  next_gen: posterior sd / prior sd (median) = [0.184 0.413 0.981 1.   ] | constrained directions = 2.0
+ near_zero: posterior sd / prior sd (median) = [0.047 0.198 0.933 0.995] | constrained directions = 2.0
+finite-difference stability (rel. change h vs h/2): [0.003  0.0054 0.0311 1.0366]
+== identifiability done in 34.2 min
+
+======================================================================
+== stage: zero-noise
+======================================================================
+[zero_noise] ep    0 train 1.7714 val 1.5752 (best 1.5752 @ 0)
+[zero_noise] ep    5 train 1.2055 val 1.2643 (best 1.2643 @ 5)
+[zero_noise] ep   10 train 0.9406 val 1.2200 (best 0.9420 @ 8)
+[zero_noise] ep   15 train 0.9007 val 0.9335 (best 0.9000 @ 12)
+[zero_noise] ep   20 train 0.8874 val 0.8691 (best 0.8640 @ 17)
+[zero_noise] ep   25 train 0.8734 val 0.8401 (best 0.8401 @ 25)
+[zero_noise] ep   30 train 0.8558 val 0.8298 (best 0.8144 @ 26)
+[zero_noise] ep   35 train 0.8400 val 0.9167 (best 0.8144 @ 26)
+[zero_noise] ep   40 train 0.8436 val 0.8367 (best 0.8144 @ 26)
+[zero_noise] ep   45 train 0.8273 val 0.8070 (best 0.8070 @ 45)
+[zero_noise] ep   50 train 0.8094 val 0.8325 (best 0.7928 @ 49)
+[zero_noise] ep   55 train 0.8213 val 0.8079 (best 0.7928 @ 49)
+[zero_noise] ep   60 train 0.8117 val 0.8079 (best 0.7889 @ 57)
+[zero_noise] ep   65 train 0.7945 val 0.8724 (best 0.7815 @ 63)
+[zero_noise] ep   70 train 0.7887 val 0.8874 (best 0.7815 @ 63)
+[zero_noise] ep   75 train 0.7947 val 0.7755 (best 0.7755 @ 75)
+[zero_noise] ep   80 train 0.7724 val 0.7630 (best 0.7630 @ 80)
+[zero_noise] ep   85 train 0.7813 val 0.7685 (best 0.7622 @ 83)
+[zero_noise] ep   90 train 0.7742 val 0.7514 (best 0.7514 @ 90)
+[zero_noise] ep   95 train 0.7697 val 0.7445 (best 0.7445 @ 95)
+[zero_noise] ep  100 train 0.7692 val 0.8093 (best 0.7445 @ 95)
+[zero_noise] ep  105 train 0.7701 val 0.7821 (best 0.7445 @ 95)
+[zero_noise] ep  110 train 0.7558 val 0.7637 (best 0.7445 @ 95)
+[zero_noise] ep  115 train 0.7533 val 0.7649 (best 0.7284 @ 114)
+[zero_noise] ep  120 train 0.7449 val 0.7418 (best 0.7284 @ 114)
+[zero_noise] ep  125 train 0.7488 val 0.7644 (best 0.7284 @ 114)
+[zero_noise] ep  130 train 0.7395 val 0.7628 (best 0.7284 @ 114)
+[zero_noise] ep  135 train 0.7400 val 0.7318 (best 0.7201 @ 132)
+[zero_noise] ep  140 train 0.7311 val 0.7183 (best 0.7183 @ 140)
+[zero_noise] ep  145 train 0.7430 val 0.7351 (best 0.7183 @ 140)
+[zero_noise] ep  150 train 0.7318 val 0.7181 (best 0.7181 @ 150)
+[zero_noise] ep  155 train 0.7167 val 0.7138 (best 0.7138 @ 155)
+[zero_noise] ep  160 train 0.7212 val 0.7586 (best 0.7076 @ 156)
+[zero_noise] ep  165 train 0.7186 val 0.7245 (best 0.7076 @ 156)
+[zero_noise] ep  170 train 0.7112 val 0.7118 (best 0.7041 @ 167)
+[zero_noise] ep  175 train 0.7073 val 0.7107 (best 0.7041 @ 167)
+[zero_noise] ep  180 train 0.7110 val 0.6982 (best 0.6982 @ 180)
+[zero_noise] ep  185 train 0.7034 val 0.6974 (best 0.6974 @ 185)
+[zero_noise] ep  190 train 0.6921 val 0.7172 (best 0.6908 @ 186)
+[zero_noise] ep  195 train 0.6952 val 0.6942 (best 0.6908 @ 186)
+[zero_noise] ep  200 train 0.7140 val 0.7203 (best 0.6908 @ 186)
+[zero_noise] ep  205 train 0.6899 val 0.6904 (best 0.6871 @ 202)
+[zero_noise] ep  210 train 0.6950 val 0.7016 (best 0.6871 @ 202)
+[zero_noise] ep  215 train 0.7058 val 0.7023 (best 0.6854 @ 212)
+[zero_noise] ep  220 train 0.6863 val 0.6866 (best 0.6841 @ 217)
+[zero_noise] ep  225 train 0.6878 val 0.6767 (best 0.6767 @ 225)
+[zero_noise] ep  230 train 0.6777 val 0.6872 (best 0.6767 @ 225)
+[zero_noise] ep  235 train 0.6835 val 0.6826 (best 0.6767 @ 225)
+[zero_noise] ep  240 train 0.6789 val 0.6909 (best 0.6753 @ 238)
+[zero_noise] ep  245 train 0.6817 val 0.6866 (best 0.6753 @ 238)
+[zero_noise] ep  250 train 0.6772 val 0.6809 (best 0.6753 @ 238)
+[zero_noise] ep  255 train 0.6793 val 0.6781 (best 0.6740 @ 252)
+[zero_noise] ep  260 train 0.6734 val 0.6739 (best 0.6716 @ 259)
+[zero_noise] ep  265 train 0.6722 val 0.6732 (best 0.6716 @ 259)
+[zero_noise] ep  270 train 0.6701 val 0.6712 (best 0.6679 @ 268)
+[zero_noise] ep  275 train 0.6747 val 0.6719 (best 0.6679 @ 268)
+[zero_noise] ep  280 train 0.6758 val 0.6689 (best 0.6679 @ 268)
+[zero_noise] ep  285 train 0.6735 val 0.6681 (best 0.6679 @ 268)
+[zero_noise] ep  290 train 0.6801 val 0.6662 (best 0.6662 @ 290)
+[zero_noise] ep  295 train 0.6617 val 0.6691 (best 0.6662 @ 290)
+[zero_noise] best val 0.6644 @ epoch 297 / 300 epochs, 0.28 h
+
+
+near-zero-noise flow model
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.0108     0.3414   0.032        0.999
+ gamma_1    0.1053     0.7810   0.135        0.977
+ gamma_2    0.1984     0.2990   0.664        0.457
+ gamma_3    0.0101     0.0101   0.999        0.027
+model-free GBR on noise-free curves: {'gamma_0': {'r2': 0.9985031276266064, 'mae_ratio_to_prior': 0.03755255734085239}, 'gamma_1': {'r2': 0.9671644312999436, 'mae_ratio_to_prior': 0.17739561593568068}, 'gamma_2': {'r2': 0.2652417450925211, 'mae_ratio_to_prior': 0.8242200461923107}, 'gamma_3': {'r2': -0.0003647316749344487, 'mae_ratio_to_prior': 1.0000753728028686}}
+== zero-noise done in 20.5 min
+
+======================================================================
+== stage: ablate-arch
+======================================================================
+[arch_set_transformer_s0] ep    0 train 1.7349 val 1.6329 (best 1.6329 @ 0)
+[arch_set_transformer_s0] ep    5 train 1.1731 val 1.1955 (best 1.1800 @ 3)
+[arch_set_transformer_s0] ep   10 train 1.1506 val 1.1351 (best 1.1351 @ 10)
+[arch_set_transformer_s0] ep   15 train 1.1473 val 1.1335 (best 1.1335 @ 15)
+[arch_set_transformer_s0] ep   20 train 1.1355 val 1.1375 (best 1.1299 @ 17)
+[arch_set_transformer_s0] ep   25 train 1.1395 val 1.1230 (best 1.1213 @ 23)
+[arch_set_transformer_s0] ep   30 train 1.1283 val 1.1193 (best 1.1193 @ 30)
+[arch_set_transformer_s0] ep   35 train 1.1272 val 1.1243 (best 1.1182 @ 31)
+[arch_set_transformer_s0] ep   40 train 1.1220 val 1.1249 (best 1.1182 @ 31)
+[arch_set_transformer_s0] ep   45 train 1.1211 val 1.1131 (best 1.1131 @ 45)
+[arch_set_transformer_s0] ep   50 train 1.1191 val 1.1158 (best 1.1131 @ 45)
+[arch_set_transformer_s0] ep   55 train 1.1166 val 1.1104 (best 1.1104 @ 55)
+[arch_set_transformer_s0] ep   60 train 1.1179 val 1.1158 (best 1.1097 @ 59)
+[arch_set_transformer_s0] ep   65 train 1.1140 val 1.1060 (best 1.1060 @ 65)
+[arch_set_transformer_s0] ep   70 train 1.1177 val 1.1139 (best 1.1060 @ 68)
+[arch_set_transformer_s0] ep   75 train 1.1122 val 1.1026 (best 1.1026 @ 75)
+[arch_set_transformer_s0] ep   80 train 1.1099 val 1.1065 (best 1.1026 @ 75)
+[arch_set_transformer_s0] ep   85 train 1.1088 val 1.1031 (best 1.1018 @ 83)
+[arch_set_transformer_s0] ep   90 train 1.1041 val 1.0992 (best 1.0992 @ 90)
+[arch_set_transformer_s0] ep   95 train 1.1067 val 1.1004 (best 1.0992 @ 90)
+[arch_set_transformer_s0] ep  100 train 1.1013 val 1.1005 (best 1.0979 @ 96)
+[arch_set_transformer_s0] ep  105 train 1.1035 val 1.1003 (best 1.0972 @ 104)
+[arch_set_transformer_s0] ep  110 train 1.1041 val 1.0965 (best 1.0965 @ 110)
+[arch_set_transformer_s0] ep  115 train 1.1035 val 1.0959 (best 1.0956 @ 114)
+[arch_set_transformer_s0] ep  120 train 1.1059 val 1.0942 (best 1.0942 @ 120)
+[arch_set_transformer_s0] ep  125 train 1.0974 val 1.0942 (best 1.0942 @ 125)
+[arch_set_transformer_s0] ep  130 train 1.0987 val 1.0952 (best 1.0939 @ 128)
+[arch_set_transformer_s0] ep  135 train 1.1017 val 1.0928 (best 1.0928 @ 135)
+[arch_set_transformer_s0] ep  140 train 1.1020 val 1.0933 (best 1.0923 @ 136)
+[arch_set_transformer_s0] ep  145 train 1.0899 val 1.0927 (best 1.0923 @ 136)
+[arch_set_transformer_s0] best val 1.0923 @ epoch 136 / 150 epochs, 0.89 h
+
+
+[arch_set_transformer_s1] ep    0 train 1.7465 val 1.5712 (best 1.5712 @ 0)
+[arch_set_transformer_s1] ep    5 train 1.1766 val 1.1762 (best 1.1525 @ 4)
+[arch_set_transformer_s1] ep   10 train 1.1556 val 1.1413 (best 1.1413 @ 10)
+[arch_set_transformer_s1] ep   15 train 1.1428 val 1.1418 (best 1.1393 @ 14)
+[arch_set_transformer_s1] ep   20 train 1.1397 val 1.1262 (best 1.1262 @ 20)
+[arch_set_transformer_s1] ep   25 train 1.1382 val 1.1310 (best 1.1262 @ 20)
+[arch_set_transformer_s1] ep   30 train 1.1284 val 1.1205 (best 1.1205 @ 30)
+[arch_set_transformer_s1] ep   35 train 1.1250 val 1.1215 (best 1.1173 @ 32)
+[arch_set_transformer_s1] ep   40 train 1.1212 val 1.1216 (best 1.1168 @ 39)
+[arch_set_transformer_s1] ep   45 train 1.1217 val 1.1141 (best 1.1109 @ 42)
+[arch_set_transformer_s1] ep   50 train 1.1177 val 1.1207 (best 1.1109 @ 42)
+[arch_set_transformer_s1] ep   55 train 1.1167 val 1.1120 (best 1.1102 @ 53)
+[arch_set_transformer_s1] ep   60 train 1.1161 val 1.1146 (best 1.1102 @ 53)
+[arch_set_transformer_s1] ep   65 train 1.1199 val 1.1045 (best 1.1045 @ 65)
+[arch_set_transformer_s1] ep   70 train 1.1062 val 1.1065 (best 1.1045 @ 65)
+[arch_set_transformer_s1] ep   75 train 1.1132 val 1.1045 (best 1.1045 @ 65)
+[arch_set_transformer_s1] ep   80 train 1.1100 val 1.1033 (best 1.1025 @ 76)
+[arch_set_transformer_s1] ep   85 train 1.1074 val 1.1036 (best 1.1025 @ 76)
+[arch_set_transformer_s1] ep   90 train 1.1069 val 1.1027 (best 1.0992 @ 88)
+[arch_set_transformer_s1] ep   95 train 1.1099 val 1.1005 (best 1.0992 @ 88)
+[arch_set_transformer_s1] ep  100 train 1.1085 val 1.0983 (best 1.0983 @ 100)
+[arch_set_transformer_s1] ep  105 train 1.0986 val 1.0965 (best 1.0965 @ 105)
+[arch_set_transformer_s1] ep  110 train 1.0986 val 1.0984 (best 1.0963 @ 106)
+[arch_set_transformer_s1] ep  115 train 1.1034 val 1.0972 (best 1.0940 @ 114)
+[arch_set_transformer_s1] ep  120 train 1.1023 val 1.0946 (best 1.0940 @ 114)
+[arch_set_transformer_s1] ep  125 train 1.0926 val 1.0940 (best 1.0937 @ 124)
+[arch_set_transformer_s1] ep  130 train 1.1003 val 1.0938 (best 1.0937 @ 128)
+[arch_set_transformer_s1] ep  135 train 1.0940 val 1.0933 (best 1.0931 @ 134)
+[arch_set_transformer_s1] ep  140 train 1.0975 val 1.0934 (best 1.0926 @ 138)
+[arch_set_transformer_s1] ep  145 train 1.0968 val 1.0926 (best 1.0926 @ 138)
+[arch_set_transformer_s1] best val 1.0926 @ epoch 148 / 150 epochs, 0.90 h
+
+
+[arch_set_transformer_s2] ep    0 train 1.7132 val 1.6183 (best 1.6183 @ 0)
+[arch_set_transformer_s2] ep    5 train 1.1770 val 1.1652 (best 1.1650 @ 4)
+[arch_set_transformer_s2] ep   10 train 1.1539 val 1.1389 (best 1.1389 @ 10)
+[arch_set_transformer_s2] ep   15 train 1.1431 val 1.1346 (best 1.1286 @ 11)
+[arch_set_transformer_s2] ep   20 train 1.1399 val 1.1282 (best 1.1234 @ 17)
+[arch_set_transformer_s2] ep   25 train 1.1335 val 1.1345 (best 1.1234 @ 17)
+[arch_set_transformer_s2] ep   30 train 1.1323 val 1.1275 (best 1.1183 @ 26)
+[arch_set_transformer_s2] ep   35 train 1.1272 val 1.1224 (best 1.1178 @ 31)
+[arch_set_transformer_s2] ep   40 train 1.1238 val 1.1136 (best 1.1136 @ 40)
+[arch_set_transformer_s2] ep   45 train 1.1153 val 1.1227 (best 1.1136 @ 40)
+[arch_set_transformer_s2] ep   50 train 1.1232 val 1.1228 (best 1.1127 @ 49)
+[arch_set_transformer_s2] ep   55 train 1.1208 val 1.1158 (best 1.1124 @ 52)
+[arch_set_transformer_s2] ep   60 train 1.1133 val 1.1092 (best 1.1092 @ 60)
+[arch_set_transformer_s2] ep   65 train 1.1151 val 1.1083 (best 1.1063 @ 63)
+[arch_set_transformer_s2] ep   70 train 1.1105 val 1.1038 (best 1.1038 @ 70)
+[arch_set_transformer_s2] ep   75 train 1.1128 val 1.1045 (best 1.1032 @ 71)
+[arch_set_transformer_s2] ep   80 train 1.1072 val 1.1024 (best 1.1024 @ 80)
+[arch_set_transformer_s2] ep   85 train 1.1121 val 1.1059 (best 1.1023 @ 83)
+[arch_set_transformer_s2] ep   90 train 1.1048 val 1.1016 (best 1.1006 @ 88)
+[arch_set_transformer_s2] ep   95 train 1.1064 val 1.1026 (best 1.0987 @ 94)
+[arch_set_transformer_s2] ep  100 train 1.0983 val 1.0993 (best 1.0987 @ 94)
+[arch_set_transformer_s2] ep  105 train 1.1053 val 1.0980 (best 1.0972 @ 103)
+[arch_set_transformer_s2] ep  110 train 1.1044 val 1.0978 (best 1.0972 @ 103)
+[arch_set_transformer_s2] ep  115 train 1.0988 val 1.0953 (best 1.0953 @ 115)
+[arch_set_transformer_s2] ep  120 train 1.1011 val 1.0960 (best 1.0943 @ 117)
+[arch_set_transformer_s2] ep  125 train 1.0979 val 1.0935 (best 1.0935 @ 125)
+[arch_set_transformer_s2] ep  130 train 1.0985 val 1.0939 (best 1.0935 @ 125)
+[arch_set_transformer_s2] ep  135 train 1.1027 val 1.0927 (best 1.0927 @ 135)
+[arch_set_transformer_s2] ep  140 train 1.0947 val 1.0928 (best 1.0927 @ 135)
+[arch_set_transformer_s2] ep  145 train 1.1010 val 1.0924 (best 1.0920 @ 141)
+[arch_set_transformer_s2] best val 1.0920 @ epoch 141 / 150 epochs, 0.89 h
+
+
+[arch_deepsets_s0] ep    0 train 1.5684 val 1.3177 (best 1.3177 @ 0)
+[arch_deepsets_s0] ep    5 train 1.1831 val 1.1724 (best 1.1724 @ 5)
+[arch_deepsets_s0] ep   10 train 1.1697 val 1.1566 (best 1.1550 @ 9)
+[arch_deepsets_s0] ep   15 train 1.1546 val 1.1621 (best 1.1528 @ 13)
+[arch_deepsets_s0] ep   20 train 1.1479 val 1.1458 (best 1.1405 @ 18)
+[arch_deepsets_s0] ep   25 train 1.1434 val 1.1367 (best 1.1360 @ 23)
+[arch_deepsets_s0] ep   30 train 1.1399 val 1.1437 (best 1.1312 @ 26)
+[arch_deepsets_s0] ep   35 train 1.1332 val 1.1318 (best 1.1298 @ 32)
+[arch_deepsets_s0] ep   40 train 1.1386 val 1.1258 (best 1.1242 @ 39)
+[arch_deepsets_s0] ep   45 train 1.1295 val 1.1332 (best 1.1224 @ 42)
+[arch_deepsets_s0] ep   50 train 1.1311 val 1.1235 (best 1.1224 @ 42)
+[arch_deepsets_s0] ep   55 train 1.1244 val 1.1196 (best 1.1196 @ 55)
+[arch_deepsets_s0] ep   60 train 1.1243 val 1.1253 (best 1.1165 @ 57)
+[arch_deepsets_s0] ep   65 train 1.1205 val 1.1160 (best 1.1160 @ 65)
+[arch_deepsets_s0] ep   70 train 1.1193 val 1.1165 (best 1.1160 @ 65)
+[arch_deepsets_s0] ep   75 train 1.1139 val 1.1133 (best 1.1118 @ 73)
+[arch_deepsets_s0] ep   80 train 1.1187 val 1.1094 (best 1.1088 @ 78)
+[arch_deepsets_s0] ep   85 train 1.1211 val 1.1092 (best 1.1088 @ 78)
+[arch_deepsets_s0] ep   90 train 1.1168 val 1.1070 (best 1.1070 @ 90)
+[arch_deepsets_s0] ep   95 train 1.1123 val 1.1061 (best 1.1061 @ 95)
+[arch_deepsets_s0] ep  100 train 1.1072 val 1.1050 (best 1.1040 @ 98)
+[arch_deepsets_s0] ep  105 train 1.1094 val 1.1045 (best 1.1034 @ 103)
+[arch_deepsets_s0] ep  110 train 1.1069 val 1.1014 (best 1.1011 @ 109)
+[arch_deepsets_s0] ep  115 train 1.1040 val 1.1018 (best 1.1010 @ 114)
+[arch_deepsets_s0] ep  120 train 1.1050 val 1.0999 (best 1.0997 @ 117)
+[arch_deepsets_s0] ep  125 train 1.1089 val 1.0986 (best 1.0986 @ 125)
+[arch_deepsets_s0] ep  130 train 1.1030 val 1.0991 (best 1.0985 @ 129)
+[arch_deepsets_s0] ep  135 train 1.1037 val 1.0978 (best 1.0978 @ 135)
+[arch_deepsets_s0] ep  140 train 1.0919 val 1.0972 (best 1.0972 @ 140)
+[arch_deepsets_s0] ep  145 train 1.0986 val 1.0970 (best 1.0968 @ 144)
+[arch_deepsets_s0] best val 1.0966 @ epoch 149 / 150 epochs, 0.57 h
+
+
+[arch_deepsets_s1] ep    0 train 1.5885 val 1.3012 (best 1.3012 @ 0)
+[arch_deepsets_s1] ep    5 train 1.1823 val 1.1730 (best 1.1730 @ 5)
+[arch_deepsets_s1] ep   10 train 1.1649 val 1.1662 (best 1.1564 @ 9)
+[arch_deepsets_s1] ep   15 train 1.1535 val 1.1503 (best 1.1468 @ 14)
+[arch_deepsets_s1] ep   20 train 1.1490 val 1.1457 (best 1.1457 @ 20)
+[arch_deepsets_s1] ep   25 train 1.1427 val 1.1524 (best 1.1313 @ 23)
+[arch_deepsets_s1] ep   30 train 1.1366 val 1.1334 (best 1.1310 @ 29)
+[arch_deepsets_s1] ep   35 train 1.1365 val 1.1285 (best 1.1285 @ 35)
+[arch_deepsets_s1] ep   40 train 1.1392 val 1.1354 (best 1.1285 @ 35)
+[arch_deepsets_s1] ep   45 train 1.1316 val 1.1309 (best 1.1242 @ 43)
+[arch_deepsets_s1] ep   50 train 1.1293 val 1.1281 (best 1.1233 @ 49)
+[arch_deepsets_s1] ep   55 train 1.1288 val 1.1250 (best 1.1179 @ 51)
+[arch_deepsets_s1] ep   60 train 1.1229 val 1.1204 (best 1.1165 @ 59)
+[arch_deepsets_s1] ep   65 train 1.1208 val 1.1173 (best 1.1159 @ 64)
+[arch_deepsets_s1] ep   70 train 1.1191 val 1.1167 (best 1.1117 @ 69)
+[arch_deepsets_s1] ep   75 train 1.1190 val 1.1154 (best 1.1114 @ 71)
+[arch_deepsets_s1] ep   80 train 1.1179 val 1.1153 (best 1.1114 @ 71)
+[arch_deepsets_s1] ep   85 train 1.1187 val 1.1091 (best 1.1091 @ 85)
+[arch_deepsets_s1] ep   90 train 1.1180 val 1.1120 (best 1.1056 @ 88)
+[arch_deepsets_s1] ep   95 train 1.1110 val 1.1059 (best 1.1056 @ 88)
+[arch_deepsets_s1] ep  100 train 1.1129 val 1.1056 (best 1.1042 @ 98)
+[arch_deepsets_s1] ep  105 train 1.1085 val 1.1038 (best 1.1038 @ 105)
+[arch_deepsets_s1] ep  110 train 1.1057 val 1.1055 (best 1.1030 @ 108)
+[arch_deepsets_s1] ep  115 train 1.1055 val 1.1025 (best 1.1013 @ 114)
+[arch_deepsets_s1] ep  120 train 1.1042 val 1.1015 (best 1.0995 @ 118)
+[arch_deepsets_s1] ep  125 train 1.1011 val 1.1003 (best 1.0995 @ 118)
+[arch_deepsets_s1] ep  130 train 1.1064 val 1.0988 (best 1.0985 @ 127)
+[arch_deepsets_s1] ep  135 train 1.1006 val 1.0975 (best 1.0974 @ 134)
+[arch_deepsets_s1] ep  140 train 1.1026 val 1.0981 (best 1.0974 @ 134)
+[arch_deepsets_s1] ep  145 train 1.0979 val 1.0977 (best 1.0971 @ 144)
+[arch_deepsets_s1] best val 1.0971 @ epoch 144 / 150 epochs, 0.57 h
+
+
+[arch_deepsets_s2] ep    0 train 1.5685 val 1.2728 (best 1.2728 @ 0)
+[arch_deepsets_s2] ep    5 train 1.1819 val 1.1881 (best 1.1766 @ 4)
+[arch_deepsets_s2] ep   10 train 1.1662 val 1.1696 (best 1.1665 @ 8)
+[arch_deepsets_s2] ep   15 train 1.1570 val 1.1559 (best 1.1553 @ 13)
+[arch_deepsets_s2] ep   20 train 1.1552 val 1.1428 (best 1.1371 @ 16)
+[arch_deepsets_s2] ep   25 train 1.1397 val 1.1403 (best 1.1371 @ 16)
+[arch_deepsets_s2] ep   30 train 1.1456 val 1.1357 (best 1.1309 @ 27)
+[arch_deepsets_s2] ep   35 train 1.1388 val 1.1253 (best 1.1253 @ 35)
+[arch_deepsets_s2] ep   40 train 1.1343 val 1.1268 (best 1.1253 @ 35)
+[arch_deepsets_s2] ep   45 train 1.1349 val 1.1329 (best 1.1251 @ 43)
+[arch_deepsets_s2] ep   50 train 1.1309 val 1.1368 (best 1.1238 @ 49)
+[arch_deepsets_s2] ep   55 train 1.1277 val 1.1238 (best 1.1237 @ 53)
+[arch_deepsets_s2] ep   60 train 1.1259 val 1.1198 (best 1.1183 @ 59)
+[arch_deepsets_s2] ep   65 train 1.1247 val 1.1191 (best 1.1169 @ 61)
+[arch_deepsets_s2] ep   70 train 1.1184 val 1.1154 (best 1.1154 @ 70)
+[arch_deepsets_s2] ep   75 train 1.1236 val 1.1145 (best 1.1127 @ 73)
+[arch_deepsets_s2] ep   80 train 1.1156 val 1.1109 (best 1.1109 @ 80)
+[arch_deepsets_s2] ep   85 train 1.1144 val 1.1112 (best 1.1082 @ 82)
+[arch_deepsets_s2] ep   90 train 1.1150 val 1.1094 (best 1.1067 @ 88)
+[arch_deepsets_s2] ep   95 train 1.1103 val 1.1065 (best 1.1050 @ 94)
+[arch_deepsets_s2] ep  100 train 1.1090 val 1.1067 (best 1.1050 @ 94)
+[arch_deepsets_s2] ep  105 train 1.1129 val 1.1037 (best 1.1037 @ 105)
+[arch_deepsets_s2] ep  110 train 1.1035 val 1.1023 (best 1.1020 @ 106)
+[arch_deepsets_s2] ep  115 train 1.1051 val 1.1006 (best 1.1006 @ 115)
+[arch_deepsets_s2] ep  120 train 1.1037 val 1.1009 (best 1.1004 @ 116)
+[arch_deepsets_s2] ep  125 train 1.1036 val 1.0987 (best 1.0987 @ 125)
+[arch_deepsets_s2] ep  130 train 1.1068 val 1.0982 (best 1.0982 @ 130)
+[arch_deepsets_s2] ep  135 train 1.1071 val 1.0981 (best 1.0981 @ 133)
+[arch_deepsets_s2] ep  140 train 1.1031 val 1.0979 (best 1.0978 @ 138)
+[arch_deepsets_s2] ep  145 train 1.1033 val 1.0978 (best 1.0970 @ 144)
+[arch_deepsets_s2] best val 1.0970 @ epoch 144 / 150 epochs, 0.56 h
+
+
+[arch_padded_mlp_s0] ep    0 train 1.7076 val 1.6296 (best 1.6296 @ 0)
+[arch_padded_mlp_s0] ep    5 train 1.2211 val 1.2087 (best 1.2087 @ 5)
+[arch_padded_mlp_s0] ep   10 train 1.2112 val 1.1921 (best 1.1921 @ 10)
+[arch_padded_mlp_s0] ep   15 train 1.1960 val 1.1988 (best 1.1921 @ 10)
+[arch_padded_mlp_s0] ep   20 train 1.1910 val 1.1855 (best 1.1855 @ 20)
+[arch_padded_mlp_s0] ep   25 train 1.1836 val 1.1799 (best 1.1797 @ 23)
+[arch_padded_mlp_s0] ep   30 train 1.1788 val 1.1823 (best 1.1752 @ 29)
+[arch_padded_mlp_s0] ep   35 train 1.1723 val 1.1706 (best 1.1706 @ 35)
+[arch_padded_mlp_s0] ep   40 train 1.1781 val 1.1683 (best 1.1683 @ 40)
+[arch_padded_mlp_s0] ep   45 train 1.1664 val 1.1699 (best 1.1635 @ 43)
+[arch_padded_mlp_s0] ep   50 train 1.1699 val 1.1652 (best 1.1612 @ 47)
+[arch_padded_mlp_s0] ep   55 train 1.1624 val 1.1564 (best 1.1564 @ 55)
+[arch_padded_mlp_s0] ep   60 train 1.1619 val 1.1603 (best 1.1559 @ 57)
+[arch_padded_mlp_s0] ep   65 train 1.1556 val 1.1518 (best 1.1518 @ 65)
+[arch_padded_mlp_s0] ep   70 train 1.1532 val 1.1522 (best 1.1510 @ 69)
+[arch_padded_mlp_s0] ep   75 train 1.1479 val 1.1479 (best 1.1479 @ 75)
+[arch_padded_mlp_s0] ep   80 train 1.1532 val 1.1465 (best 1.1454 @ 78)
+[arch_padded_mlp_s0] ep   85 train 1.1560 val 1.1474 (best 1.1454 @ 78)
+[arch_padded_mlp_s0] ep   90 train 1.1495 val 1.1427 (best 1.1420 @ 89)
+[arch_padded_mlp_s0] ep   95 train 1.1463 val 1.1425 (best 1.1420 @ 89)
+[arch_padded_mlp_s0] ep  100 train 1.1393 val 1.1401 (best 1.1401 @ 100)
+[arch_padded_mlp_s0] ep  105 train 1.1425 val 1.1386 (best 1.1382 @ 103)
+[arch_padded_mlp_s0] ep  110 train 1.1398 val 1.1357 (best 1.1357 @ 110)
+[arch_padded_mlp_s0] ep  115 train 1.1371 val 1.1365 (best 1.1357 @ 110)
+[arch_padded_mlp_s0] ep  120 train 1.1384 val 1.1352 (best 1.1348 @ 117)
+[arch_padded_mlp_s0] ep  125 train 1.1403 val 1.1342 (best 1.1342 @ 124)
+[arch_padded_mlp_s0] ep  130 train 1.1356 val 1.1337 (best 1.1337 @ 130)
+[arch_padded_mlp_s0] ep  135 train 1.1370 val 1.1324 (best 1.1324 @ 135)
+[arch_padded_mlp_s0] ep  140 train 1.1239 val 1.1323 (best 1.1322 @ 139)
+[arch_padded_mlp_s0] ep  145 train 1.1319 val 1.1320 (best 1.1319 @ 142)
+[arch_padded_mlp_s0] best val 1.1317 @ epoch 149 / 150 epochs, 0.57 h
+
+
+[arch_padded_mlp_s1] ep    0 train 1.7039 val 1.5786 (best 1.5786 @ 0)
+[arch_padded_mlp_s1] ep    5 train 1.2256 val 1.2145 (best 1.2145 @ 5)
+[arch_padded_mlp_s1] ep   10 train 1.2087 val 1.2035 (best 1.1995 @ 9)
+[arch_padded_mlp_s1] ep   15 train 1.1993 val 1.1851 (best 1.1851 @ 15)
+[arch_padded_mlp_s1] ep   20 train 1.1906 val 1.1865 (best 1.1851 @ 15)
+[arch_padded_mlp_s1] ep   25 train 1.1856 val 1.1970 (best 1.1776 @ 23)
+[arch_padded_mlp_s1] ep   30 train 1.1780 val 1.1743 (best 1.1743 @ 30)
+[arch_padded_mlp_s1] ep   35 train 1.1774 val 1.1726 (best 1.1720 @ 34)
+[arch_padded_mlp_s1] ep   40 train 1.1778 val 1.1696 (best 1.1682 @ 39)
+[arch_padded_mlp_s1] ep   45 train 1.1726 val 1.1703 (best 1.1653 @ 43)
+[arch_padded_mlp_s1] ep   50 train 1.1683 val 1.1616 (best 1.1616 @ 50)
+[arch_padded_mlp_s1] ep   55 train 1.1669 val 1.1600 (best 1.1563 @ 54)
+[arch_padded_mlp_s1] ep   60 train 1.1613 val 1.1591 (best 1.1563 @ 54)
+[arch_padded_mlp_s1] ep   65 train 1.1562 val 1.1553 (best 1.1521 @ 64)
+[arch_padded_mlp_s1] ep   70 train 1.1555 val 1.1529 (best 1.1504 @ 69)
+[arch_padded_mlp_s1] ep   75 train 1.1545 val 1.1534 (best 1.1495 @ 73)
+[arch_padded_mlp_s1] ep   80 train 1.1531 val 1.1495 (best 1.1478 @ 79)
+[arch_padded_mlp_s1] ep   85 train 1.1530 val 1.1435 (best 1.1435 @ 85)
+[arch_padded_mlp_s1] ep   90 train 1.1520 val 1.1451 (best 1.1420 @ 89)
+[arch_padded_mlp_s1] ep   95 train 1.1451 val 1.1402 (best 1.1402 @ 95)
+[arch_padded_mlp_s1] ep  100 train 1.1470 val 1.1392 (best 1.1388 @ 98)
+[arch_padded_mlp_s1] ep  105 train 1.1405 val 1.1365 (best 1.1365 @ 105)
+[arch_padded_mlp_s1] ep  110 train 1.1377 val 1.1377 (best 1.1365 @ 105)
+[arch_padded_mlp_s1] ep  115 train 1.1369 val 1.1355 (best 1.1337 @ 114)
+[arch_padded_mlp_s1] ep  120 train 1.1369 val 1.1344 (best 1.1333 @ 118)
+[arch_padded_mlp_s1] ep  125 train 1.1338 val 1.1334 (best 1.1333 @ 124)
+[arch_padded_mlp_s1] ep  130 train 1.1392 val 1.1329 (best 1.1321 @ 129)
+[arch_padded_mlp_s1] ep  135 train 1.1338 val 1.1320 (best 1.1317 @ 134)
+[arch_padded_mlp_s1] ep  140 train 1.1359 val 1.1323 (best 1.1317 @ 138)
+[arch_padded_mlp_s1] ep  145 train 1.1301 val 1.1311 (best 1.1309 @ 144)
+[arch_padded_mlp_s1] best val 1.1308 @ epoch 149 / 150 epochs, 0.55 h
+
+
+[arch_padded_mlp_s2] ep    0 train 1.7072 val 1.5885 (best 1.5885 @ 0)
+[arch_padded_mlp_s2] ep    5 train 1.2231 val 1.2167 (best 1.2133 @ 3)
+[arch_padded_mlp_s2] ep   10 train 1.2091 val 1.2101 (best 1.2031 @ 9)
+[arch_padded_mlp_s2] ep   15 train 1.1987 val 1.1983 (best 1.1939 @ 14)
+[arch_padded_mlp_s2] ep   20 train 1.1974 val 1.1839 (best 1.1839 @ 20)
+[arch_padded_mlp_s2] ep   25 train 1.1814 val 1.1861 (best 1.1756 @ 24)
+[arch_padded_mlp_s2] ep   30 train 1.1869 val 1.1809 (best 1.1756 @ 29)
+[arch_padded_mlp_s2] ep   35 train 1.1786 val 1.1669 (best 1.1669 @ 35)
+[arch_padded_mlp_s2] ep   40 train 1.1723 val 1.1654 (best 1.1654 @ 40)
+[arch_padded_mlp_s2] ep   45 train 1.1732 val 1.1692 (best 1.1654 @ 40)
+[arch_padded_mlp_s2] ep   50 train 1.1693 val 1.1626 (best 1.1603 @ 48)
+[arch_padded_mlp_s2] ep   55 train 1.1659 val 1.1631 (best 1.1602 @ 53)
+[arch_padded_mlp_s2] ep   60 train 1.1621 val 1.1553 (best 1.1529 @ 58)
+[arch_padded_mlp_s2] ep   65 train 1.1588 val 1.1565 (best 1.1516 @ 62)
+[arch_padded_mlp_s2] ep   70 train 1.1515 val 1.1499 (best 1.1499 @ 70)
+[arch_padded_mlp_s2] ep   75 train 1.1575 val 1.1512 (best 1.1487 @ 74)
+[arch_padded_mlp_s2] ep   80 train 1.1505 val 1.1460 (best 1.1460 @ 80)
+[arch_padded_mlp_s2] ep   85 train 1.1463 val 1.1476 (best 1.1426 @ 83)
+[arch_padded_mlp_s2] ep   90 train 1.1483 val 1.1426 (best 1.1426 @ 83)
+[arch_padded_mlp_s2] ep   95 train 1.1437 val 1.1412 (best 1.1386 @ 94)
+[arch_padded_mlp_s2] ep  100 train 1.1424 val 1.1436 (best 1.1386 @ 94)
+[arch_padded_mlp_s2] ep  105 train 1.1449 val 1.1386 (best 1.1373 @ 104)
+[arch_padded_mlp_s2] ep  110 train 1.1364 val 1.1369 (best 1.1358 @ 108)
+[arch_padded_mlp_s2] ep  115 train 1.1368 val 1.1346 (best 1.1346 @ 115)
+[arch_padded_mlp_s2] ep  120 train 1.1366 val 1.1342 (best 1.1342 @ 120)
+[arch_padded_mlp_s2] ep  125 train 1.1365 val 1.1324 (best 1.1324 @ 125)
+[arch_padded_mlp_s2] ep  130 train 1.1395 val 1.1326 (best 1.1324 @ 125)
+[arch_padded_mlp_s2] ep  135 train 1.1390 val 1.1319 (best 1.1319 @ 135)
+[arch_padded_mlp_s2] ep  140 train 1.1352 val 1.1316 (best 1.1316 @ 140)
+[arch_padded_mlp_s2] ep  145 train 1.1359 val 1.1313 (best 1.1311 @ 144)
+[arch_padded_mlp_s2] best val 1.1308 @ epoch 149 / 150 epochs, 0.56 h
+
+
+
+architecture ablation (mean ± sd over seeds; identical decoder, data and budget)
+ set_transformer: val 1.0923±0.0002 | gamma_0 0.324 | gamma_1 0.720
+        deepsets: val 1.0969±0.0002 | gamma_0 0.327 | gamma_1 0.726
+      padded_mlp: val 1.1311±0.0004 | gamma_0 0.363 | gamma_1 0.787
+== ablate-arch done in 423.2 min
+
+======================================================================
+== stage: ablate-messenger
+======================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[msg_GW_only] ep    0 train 1.7455 val 1.7488 (best 1.7488 @ 0)
+[msg_GW_only] ep    5 train 1.1700 val 1.2346 (best 1.2346 @ 5)
+[msg_GW_only] ep   10 train 1.1540 val 1.2087 (best 1.2087 @ 10)
+[msg_GW_only] ep   15 train 1.1506 val 1.2179 (best 1.2039 @ 14)
+[msg_GW_only] ep   20 train 1.1381 val 1.2017 (best 1.1982 @ 19)
+[msg_GW_only] ep   25 train 1.1304 val 1.2067 (best 1.1982 @ 19)
+[msg_GW_only] ep   30 train 1.1336 val 1.1956 (best 1.1922 @ 28)
+[msg_GW_only] ep   35 train 1.1286 val 1.1894 (best 1.1894 @ 35)
+[msg_GW_only] ep   40 train 1.1292 val 1.1898 (best 1.1894 @ 35)
+[msg_GW_only] ep   45 train 1.1294 val 1.1833 (best 1.1833 @ 45)
+[msg_GW_only] ep   50 train 1.1248 val 1.1885 (best 1.1833 @ 45)
+[msg_GW_only] ep   55 train 1.1204 val 1.1857 (best 1.1833 @ 45)
+[msg_GW_only] ep   60 train 1.1241 val 1.1857 (best 1.1833 @ 45)
+[msg_GW_only] ep   65 train 1.1190 val 1.1863 (best 1.1825 @ 61)
+[msg_GW_only] ep   70 train 1.1187 val 1.1826 (best 1.1810 @ 68)
+[msg_GW_only] ep   75 train 1.1194 val 1.1807 (best 1.1794 @ 72)
+[msg_GW_only] ep   80 train 1.1128 val 1.1798 (best 1.1794 @ 72)
+[msg_GW_only] ep   85 train 1.1139 val 1.1813 (best 1.1774 @ 83)
+[msg_GW_only] ep   90 train 1.1122 val 1.1794 (best 1.1774 @ 89)
+[msg_GW_only] ep   95 train 1.1096 val 1.1785 (best 1.1768 @ 92)
+[msg_GW_only] ep  100 train 1.1071 val 1.1761 (best 1.1736 @ 98)
+[msg_GW_only] ep  105 train 1.1068 val 1.1750 (best 1.1736 @ 98)
+[msg_GW_only] ep  110 train 1.1041 val 1.1742 (best 1.1736 @ 98)
+[msg_GW_only] ep  115 train 1.1136 val 1.1733 (best 1.1733 @ 115)
+[msg_GW_only] ep  120 train 1.1042 val 1.1719 (best 1.1719 @ 120)
+[msg_GW_only] ep  125 train 1.1059 val 1.1715 (best 1.1715 @ 125)
+[msg_GW_only] ep  130 train 1.1017 val 1.1704 (best 1.1704 @ 130)
+[msg_GW_only] ep  135 train 1.1019 val 1.1705 (best 1.1704 @ 130)
+[msg_GW_only] ep  140 train 1.1090 val 1.1704 (best 1.1702 @ 138)
+[msg_GW_only] ep  145 train 1.1018 val 1.1700 (best 1.1700 @ 145)
+[msg_GW_only] best val 1.1700 @ epoch 145 / 150 epochs, 0.58 h
+
+
+[msg_NICER_only] ep    0 train 1.6758 val 1.6402 (best 1.6402 @ 0)
+[msg_NICER_only] ep    5 train 1.1431 val 1.1955 (best 1.1955 @ 5)
+[msg_NICER_only] ep   10 train 1.1291 val 1.1977 (best 1.1955 @ 5)
+[msg_NICER_only] ep   15 train 1.1251 val 1.1886 (best 1.1835 @ 14)
+[msg_NICER_only] ep   20 train 1.1139 val 1.1930 (best 1.1835 @ 14)
+[msg_NICER_only] ep   25 train 1.1034 val 1.1850 (best 1.1755 @ 22)
+[msg_NICER_only] ep   30 train 1.1043 val 1.1788 (best 1.1755 @ 22)
+[msg_NICER_only] ep   35 train 1.1025 val 1.1728 (best 1.1728 @ 35)
+[msg_NICER_only] ep   40 train 1.1028 val 1.1734 (best 1.1723 @ 39)
+[msg_NICER_only] ep   45 train 1.1003 val 1.1706 (best 1.1697 @ 42)
+[msg_NICER_only] ep   50 train 1.0972 val 1.1707 (best 1.1688 @ 49)
+[msg_NICER_only] ep   55 train 1.0953 val 1.1673 (best 1.1673 @ 55)
+[msg_NICER_only] ep   60 train 1.0982 val 1.1711 (best 1.1673 @ 55)
+[msg_NICER_only] ep   65 train 1.0952 val 1.1649 (best 1.1637 @ 63)
+[msg_NICER_only] ep   70 train 1.0931 val 1.1641 (best 1.1624 @ 67)
+[msg_NICER_only] ep   75 train 1.0952 val 1.1631 (best 1.1599 @ 71)
+[msg_NICER_only] ep   80 train 1.0850 val 1.1624 (best 1.1599 @ 71)
+[msg_NICER_only] ep   85 train 1.0900 val 1.1632 (best 1.1599 @ 71)
+[msg_NICER_only] ep   90 train 1.0875 val 1.1631 (best 1.1584 @ 87)
+[msg_NICER_only] ep   95 train 1.0840 val 1.1631 (best 1.1584 @ 87)
+[msg_NICER_only] ep  100 train 1.0824 val 1.1586 (best 1.1581 @ 99)
+[msg_NICER_only] ep  105 train 1.0820 val 1.1585 (best 1.1567 @ 103)
+[msg_NICER_only] ep  110 train 1.0804 val 1.1581 (best 1.1567 @ 103)
+[msg_NICER_only] ep  115 train 1.0880 val 1.1557 (best 1.1557 @ 113)
+[msg_NICER_only] ep  120 train 1.0815 val 1.1554 (best 1.1552 @ 117)
+[msg_NICER_only] ep  125 train 1.0814 val 1.1553 (best 1.1545 @ 124)
+[msg_NICER_only] ep  130 train 1.0776 val 1.1536 (best 1.1536 @ 130)
+[msg_NICER_only] ep  135 train 1.0786 val 1.1539 (best 1.1536 @ 130)
+[msg_NICER_only] ep  140 train 1.0851 val 1.1533 (best 1.1533 @ 140)
+[msg_NICER_only] ep  145 train 1.0760 val 1.1533 (best 1.1530 @ 142)
+[msg_NICER_only] best val 1.1530 @ epoch 142 / 150 epochs, 0.52 h
+
+
+[msg_Pulsar_only] ep    0 train 1.9353 val 1.9084 (best 1.9084 @ 0)
+[msg_Pulsar_only] ep    5 train 1.4103 val 1.4267 (best 1.4267 @ 5)
+[msg_Pulsar_only] ep   10 train 1.3996 val 1.4132 (best 1.4132 @ 10)
+[msg_Pulsar_only] ep   15 train 1.3969 val 1.4055 (best 1.4055 @ 15)
+[msg_Pulsar_only] ep   20 train 1.3867 val 1.4126 (best 1.4053 @ 17)
+[msg_Pulsar_only] ep   25 train 1.3848 val 1.4106 (best 1.4035 @ 24)
+[msg_Pulsar_only] ep   30 train 1.3853 val 1.4054 (best 1.4018 @ 28)
+[msg_Pulsar_only] ep   35 train 1.3826 val 1.4047 (best 1.3979 @ 31)
+[msg_Pulsar_only] ep   40 train 1.3850 val 1.4045 (best 1.3979 @ 31)
+[msg_Pulsar_only] ep   45 train 1.3839 val 1.3960 (best 1.3960 @ 45)
+[msg_Pulsar_only] ep   50 train 1.3788 val 1.3965 (best 1.3960 @ 45)
+[msg_Pulsar_only] ep   55 train 1.3768 val 1.3958 (best 1.3958 @ 55)
+[msg_Pulsar_only] ep   60 train 1.3815 val 1.3987 (best 1.3954 @ 59)
+[msg_Pulsar_only] ep   65 train 1.3810 val 1.3959 (best 1.3951 @ 64)
+[msg_Pulsar_only] ep   70 train 1.3790 val 1.3952 (best 1.3930 @ 68)
+[msg_Pulsar_only] ep   75 train 1.3830 val 1.3943 (best 1.3919 @ 74)
+[msg_Pulsar_only] ep   80 train 1.3734 val 1.3922 (best 1.3919 @ 74)
+[msg_Pulsar_only] ep   85 train 1.3777 val 1.3950 (best 1.3916 @ 82)
+[msg_Pulsar_only] ep   90 train 1.3703 val 1.3932 (best 1.3906 @ 89)
+[msg_Pulsar_only] ep   95 train 1.3692 val 1.3908 (best 1.3906 @ 89)
+[msg_Pulsar_only] ep  100 train 1.3752 val 1.3906 (best 1.3905 @ 99)
+[msg_Pulsar_only] ep  105 train 1.3733 val 1.3899 (best 1.3897 @ 104)
+[msg_Pulsar_only] ep  110 train 1.3686 val 1.3905 (best 1.3897 @ 104)
+[msg_Pulsar_only] ep  115 train 1.3775 val 1.3885 (best 1.3885 @ 115)
+[msg_Pulsar_only] ep  120 train 1.3702 val 1.3898 (best 1.3885 @ 115)
+[msg_Pulsar_only] ep  125 train 1.3723 val 1.3886 (best 1.3885 @ 123)
+[msg_Pulsar_only] ep  130 train 1.3663 val 1.3881 (best 1.3881 @ 127)
+[msg_Pulsar_only] ep  135 train 1.3696 val 1.3879 (best 1.3879 @ 133)
+[msg_Pulsar_only] ep  140 train 1.3758 val 1.3885 (best 1.3878 @ 136)
+[msg_Pulsar_only] ep  145 train 1.3687 val 1.3878 (best 1.3878 @ 136)
+[msg_Pulsar_only] best val 1.3877 @ epoch 148 / 150 epochs, 0.48 h
+
+
+[msg_GW_NICER] ep    0 train 1.7123 val 1.7309 (best 1.7309 @ 0)
+[msg_GW_NICER] ep    5 train 1.1647 val 1.1876 (best 1.1860 @ 4)
+[msg_GW_NICER] ep   10 train 1.1348 val 1.1590 (best 1.1590 @ 10)
+[msg_GW_NICER] ep   15 train 1.1314 val 1.1548 (best 1.1542 @ 13)
+[msg_GW_NICER] ep   20 train 1.1233 val 1.1478 (best 1.1478 @ 20)
+[msg_GW_NICER] ep   25 train 1.1197 val 1.1781 (best 1.1478 @ 20)
+[msg_GW_NICER] ep   30 train 1.1148 val 1.1477 (best 1.1419 @ 28)
+[msg_GW_NICER] ep   35 train 1.1125 val 1.1377 (best 1.1355 @ 33)
+[msg_GW_NICER] ep   40 train 1.1110 val 1.1471 (best 1.1338 @ 38)
+[msg_GW_NICER] ep   45 train 1.1051 val 1.1392 (best 1.1338 @ 38)
+[msg_GW_NICER] ep   50 train 1.1068 val 1.1339 (best 1.1316 @ 49)
+[msg_GW_NICER] ep   55 train 1.1018 val 1.1340 (best 1.1310 @ 54)
+[msg_GW_NICER] ep   60 train 1.0993 val 1.1322 (best 1.1307 @ 56)
+[msg_GW_NICER] ep   65 train 1.0941 val 1.1289 (best 1.1280 @ 64)
+[msg_GW_NICER] ep   70 train 1.0913 val 1.1271 (best 1.1271 @ 70)
+[msg_GW_NICER] ep   75 train 1.1003 val 1.1294 (best 1.1268 @ 71)
+[msg_GW_NICER] ep   80 train 1.0947 val 1.1238 (best 1.1238 @ 80)
+[msg_GW_NICER] ep   85 train 1.0975 val 1.1224 (best 1.1224 @ 85)
+[msg_GW_NICER] ep   90 train 1.0944 val 1.1230 (best 1.1221 @ 89)
+[msg_GW_NICER] ep   95 train 1.0924 val 1.1211 (best 1.1211 @ 95)
+[msg_GW_NICER] ep  100 train 1.0917 val 1.1214 (best 1.1199 @ 96)
+[msg_GW_NICER] ep  105 train 1.0897 val 1.1242 (best 1.1188 @ 103)
+[msg_GW_NICER] ep  110 train 1.0872 val 1.1190 (best 1.1188 @ 103)
+[msg_GW_NICER] ep  115 train 1.0893 val 1.1182 (best 1.1182 @ 115)
+[msg_GW_NICER] ep  120 train 1.0801 val 1.1190 (best 1.1178 @ 118)
+[msg_GW_NICER] ep  125 train 1.0807 val 1.1187 (best 1.1173 @ 123)
+[msg_GW_NICER] ep  130 train 1.0839 val 1.1171 (best 1.1169 @ 128)
+[msg_GW_NICER] ep  135 train 1.0831 val 1.1167 (best 1.1164 @ 134)
+[msg_GW_NICER] ep  140 train 1.0843 val 1.1161 (best 1.1161 @ 139)
+[msg_GW_NICER] ep  145 train 1.0853 val 1.1156 (best 1.1153 @ 142)
+[msg_GW_NICER] best val 1.1153 @ epoch 142 / 150 epochs, 0.70 h
+
+
+
+main model restricted to GW only
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.1265     0.3402   0.372        0.849
+ gamma_1    0.6659     0.7693   0.866        0.209
+ gamma_2    0.2995     0.3013   0.994        0.031
+ gamma_3    0.0100     0.0100   1.001        0.018
+
+main model restricted to NICER only
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.1291     0.3402   0.380        0.852
+ gamma_1    0.6431     0.7693   0.836        0.274
+ gamma_2    0.2994     0.3013   0.994        0.037
+ gamma_3    0.0100     0.0100   1.002        0.014
+
+main model restricted to Pulsar only
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.3010     0.3402   0.885        0.259
+ gamma_1    0.7594     0.7693   0.987        0.045
+ gamma_2    0.3016     0.3013   1.001        0.029
+ gamma_3    0.0100     0.0100   1.002        0.016
+
+main model restricted to GW+NICER
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.1237     0.3402   0.364        0.857
+ gamma_1    0.6428     0.7693   0.836        0.255
+ gamma_2    0.2995     0.3013   0.994        0.035
+ gamma_3    0.0100     0.0100   1.001        0.016
+
+main model restricted to All
+   param       MAE  MAE prior   ratio  contraction
+ gamma_0    0.1313     0.3402   0.386        0.837
+ gamma_1    0.6360     0.7693   0.827        0.263
+ gamma_2    0.2989     0.3013   0.992        0.036
+ gamma_3    0.0100     0.0100   1.001        0.015
+== ablate-messenger done in 225.6 min
+
+======================================================================
+== stage: reference-synth
+======================================================================
+dynesty: 30 runs to do (0 cached) on 16 processes
+{'n_catalogs': 24, 'js_median': array([0.00266741, 0.00192953, 0.0012663 , 0.00117952]), 'js_p90': array([0.00700052, 0.00570288, 0.00229597, 0.00207753]), 'floor_sbi_median': array([0.00138071, 0.00105633, 0.00086222, 0.00081559]), 'floor_ref_js_median': [0.0014187359982657602, 0.0011341145136249504, 0.0011882617528135735, 0.0009818188334882703], 'c2st_median': 0.5190931756519412, 'c2st_floor_median': 0.5035613045499432, 'n_valid_c2st': 24, 'n_valid_floor_c2st': 6, 'std_ratio_median': array([0.98429951, 0.97492768, 0.97728424, 0.9833801 ]), 'abs_dmean_over_sd_median': array([0.05342019, 0.04089598, 0.02215917, 0.03655465]), 'truth_in_68_rate_sbi': array([0.70833333, 0.70833333, 0.66666667, 0.70833333]), 'truth_in_68_rate_ref': array([0.75      , 0.75      , 0.66666667, 0.70833333]), 'dynesty_wall_s_median': 236.36577987670898}
+== reference-synth done in 39.5 min
+
+======================================================================
+== stage: importance
+======================================================================
+[dedup] IS efficiency 0.862 (ESS 17242/20000), logZ -19.07±0.00 vs dynesty -19.01±0.06
+[duplicate] IS efficiency 0.865 (ESS 17298/20000), logZ -19.11±0.00 vs dynesty -19.08±0.07
+{'test_efficiency_summary': {'median': 0.819452045943948, 'p10': 0.6220274835858244, 'frac_below_1pct': 0.0}, 'synthetic_summary': {'median_abs_delta_log_z': 0.04688259303772213, 'median_efficiency': 0.8166131273648619}}
+== importance done in 209.6 min
+
+======================================================================
+== stage: convergence
+======================================================================
+{'n_theta': 100, 'n_requested': 100, 'max_abs_dR_km': {'median': 0.002970403293581114, 'p95': 0.01080280227912018, 'max': 0.01407547354751415}, 'max_rel_dLambda': {'median': 0.00348420665639948, 'p95': 0.010830348632316722, 'max': 0.012819021595833258}, 'abs_dMmax': {'median': 6.71918193084764e-07, 'p95': 8.131524874932514e-06, 'max': 1.3321544506617045e-05}, 'reference': {'n_pc': 120, 'rtol': 1e-08}, 'smallest_training_sigma': {'R_km': 0.3, 'psr_M': 0.01}, 'p95_dR_over_min_sigmaR': 0.036009340930400605, 'p95_dMmax_over_min_psr_sigma': 0.0008131524874932514}
+== convergence done in 3.8 min
+
+======================================================================
+== stage: economics
+======================================================================
+all 127 subsets in 23.9 s (dynesty-equivalent ≈ 4.1 h)
+{'offline_s': {'sbi_simulation': 51926.02228021622, 'sbi_training': 20656.351770162582, 'reference_grid': 7134.92964887619}, 'break_even_n_analyses': 565.6934499236339, 'note': 'Offline times are wall-clock on the recorded hardware (simulation on 16.0 CPU cores, training on the recorded model device); the reference sampler also needs the TOV grid once. Changing the prior, noise model or simulator requires re-simulation and retraining for the amortised model.', 'speedup_wall': 139.47445442810422, 'speedup_per_effective_sample': 773.8468003424085, 'importance_corrected': {'time_s': 38.076828100020066, 'ess': 17241.914597314204, 'efficiency': 0.8620957298657101, 'speedup_wall_exact': 3.0603830495623523, 'break_even_n_analyses': 925.1719082438756, 'speedup_per_effective_sample_exact': 29.276664604993663, 'note': 'IS-corrected posterior is asymptotically exact (same target as dynesty); its cost includes flow sampling, flow log-density and exact-likelihood evaluation.'}}
+== economics done in 18.8 min
+
+======================================================================
+== stage: systematics
+======================================================================
+
+
+
+
+
+             crust_fixed: coverage error [0.007 0.01  0.032 0.017]
+            crust_varied: coverage error [0.204 0.117 0.044 0.015]
+        sigma_x1.5_shift: coverage error [0.007 0.006 0.006 0.008]
+  noise_1.3x_misreported: coverage error [0.021 0.014 0.007 0.008]
+                 nominal: coverage error [0.006 0.004 0.006 0.008]
+== systematics done in 14.1 min
+
+======================================================================
+== stage: summary
+======================================================================
+# Numbers for the paper (auto-generated)
+
+## Test split (main model)
+| param | MAE | MAE prior | ratio | contraction |
+|---|---|---|---|---|
+| gamma_0 | 0.1093 | 0.3413 | 0.320 | 0.875 |
+| gamma_1 | 0.5527 | 0.7651 | 0.722 | 0.401 |
+| gamma_2 | 0.2954 | 0.3005 | 0.983 | 0.044 |
+| gamma_3 | 0.0100 | 0.0100 | 1.001 | 0.013 |
+
+Coverage error per param: [0.0019, 0.0029, 0.0075, 0.0033]
+TARP max |ECP - alpha|: 0.029
+
+Training: best epoch 367 of 400 run (max 400, patience 40), 2.39 h on NVIDIA GeForce RTX 5070, 7679748 parameters.
+
+## Real catalog vs dynesty (same likelihood)
+JS [bits], matched n=1802: [0.0014, 0.0011, 0.0008, 0.0008] (SBI floor [0.0017, 0.0012, 0.0008, 0.0008], dynesty floor [0.0006, 0.0003, 0.0003, 0.0003])
+C2ST: 0.490288950531669 (floor 0.49722761596548004)
+std ratio: [1.035, 1.027, 1.015, 0.993]
+speed-up (wall): 139x; per effective sample: 774x
+R1.4 SBI {'n_valid': 2000, 'median': 12.218515882623308, 'ci90': [11.461955505356938, 12.936490309367434], 'ci68': [11.765653238968694, 12.653157835407246]} | dynesty {'n_valid': 2000, 'median': 12.192993821304032, 'ci90': [11.478468225350298, 12.9461502357161], 'ci68': [11.75768829554379, 12.670131026648475]}
+
+## Observable-space calibration (posterior-predictive EOS -> TOV)
+| quantity | MAE | MAE prior | 68% coverage | coverage error |
+|---|---|---|---|---|
+| Mmax | 0.129 | 0.471 | 0.660 | 0.032 |
+| R14 | 0.163 | 0.927 | 0.710 | 0.022 |
+| L14 | 51.288 | 271.549 | 0.680 | 0.016 |
+
+Coverage error, identifiable params (g0, g1): 0.002398639455782325
+Prior-dominated parameters (contraction < 0.2): ['gamma_2', 'gamma_3']
+Ensemble members: 3; seed variability (mean, sd): {'gamma_0': {'mae_ratio_to_prior': [0.32537808400809737, 0.0025566779359899954], 'contraction': [0.8766556724566681, 0.0024319137178491677]}, 'gamma_1': {'mae_ratio_to_prior': [0.7229575898187347, 0.0031862509201359725], 'contraction': [0.40380616572529543, 0.01220514105348002]}, 'gamma_2': {'mae_ratio_to_prior': [0.9835033684372165, 0.0024922110872478264], 'contraction': [0.04510088998691175, 0.00842461845732532]}, 'gamma_3': {'mae_ratio_to_prior': [1.00152613985062, 0.00016969443925757608], 'contraction': [0.013611378922176046, 0.006176427378935044]}}
+
+## Importance-sampling correction (exact likelihood, real catalog)
+efficiency 0.862 (ESS 17242); box-prior log Z -19.066 ± 0.003 vs dynesty -19.009 ± 0.065
+Accepted-prior log Z -18.618 ± 0.004 (grid acceptance 0.6389)
+Strict-support sensitivity: {'strict_posterior_mass': 0.05201658186212804, 'unresolved_posterior_mass': 0.0, 'ess': 1202.5019968909469, 'parent_ess': 17241.914597314204, 'n_positive': 18762, 'n_strict': 1417, 'n_unique_solved': 18762, 'status': 'ok', 'conditional_quantiles_05_50_95': {'gamma0': [1.1914801597595215, 1.4057050943374634, 1.6635032892227173], 'gamma1': [-1.3100452978613788, -0.538597583770752, 0.11842125654220581], 'gamma2': [-0.5647639632225037, -0.18381428747292144, 0.488552063703537], 'gamma3': [-0.018107034265995026, 9.270094597013667e-05, 0.017882967367768288], 'M_TOV': [2.0723294446665363, 2.269657881711978, 2.519831113962852], 'R14': [12.147810246906255, 12.673488277029207, 13.161107399613357], 'L14': [387.69654983027834, 533.989938120047, 713.5750906449572]}}
+derived (IS-corrected): {'frac_outside_training_support': 0.0, 'frac_Mmax_below_2': 0.0, 'Mmax': {'n_valid': 2000, 'median': 2.531182997895443, 'ci90': [2.2317460795846316, 2.85568509088576], 'ci68': [2.357654415803215, 2.725014141073136]}, 'R14': {'n_valid': 2000, 'median': 12.181509675982138, 'ci90': [11.416483784056052, 12.877161380325893], 'ci68': [11.74806614193709, 12.6105564071188]}, 'L14': {'n_valid': 2000, 'median': 408.5722235614628, 'ci90': [256.51946351686723, 615.6135280446931], 'ci68': [312.72426670935783, 527.3079531222468]}}
+test-catalog IS efficiency: {'median': 0.819452045943948, 'p10': 0.6220274835858244, 'frac_below_1pct': 0.0}
+synthetic catalogs: {'median_abs_delta_log_z': 0.04688259303772213, 'median_efficiency': 0.8166131273648619}
+
+## Forward-model convergence (production vs 4x denser / 100x tighter TOV)
+max|dR| p95 0.0108 km (0.036 of the smallest sigma_R); max rel dLambda p95 0.0108; |dMmax| p95 0.0000
+
+== summary done in 0.0 min

@@ -1,0 +1,581 @@
+{
+  "zero_shot_main": {
+    "GW only": {
+      "gamma_0": {
+        "mae_post_median": 0.12648114140704275,
+        "mae_post_mean": 0.1272287219762802,
+        "rmse_post_mean": 0.15792019665241241,
+        "mae_prior_median": 0.3402068245343528,
+        "mae_ratio_to_prior": 0.3717772022361978,
+        "contraction": 0.8490719190248777,
+        "learned": true
+      },
+      "gamma_1": {
+        "mae_post_median": 0.665900013527149,
+        "mae_post_mean": 0.6663830280303955,
+        "rmse_post_mean": 0.807942271232605,
+        "mae_prior_median": 0.7692778814934284,
+        "mae_ratio_to_prior": 0.8656170020570617,
+        "contraction": 0.20860242879947066,
+        "learned": true
+      },
+      "gamma_2": {
+        "mae_post_median": 0.29946346406252267,
+        "mae_post_mean": 0.2996591329574585,
+        "rmse_post_mean": 0.34670406579971313,
+        "mae_prior_median": 0.30126114886878813,
+        "mae_ratio_to_prior": 0.9940328023941499,
+        "contraction": 0.030650962990159236,
+        "learned": false
+      },
+      "gamma_3": {
+        "mae_post_median": 0.010021835361827158,
+        "mae_post_mean": 0.010010072961449623,
+        "rmse_post_mean": 0.01158742792904377,
+        "mae_prior_median": 0.010007473413739998,
+        "mae_ratio_to_prior": 1.0014351222824576,
+        "contraction": 0.017907515835628662,
+        "learned": false
+      }
+    },
+    "NICER only": {
+      "gamma_0": {
+        "mae_post_median": 0.12911363879218699,
+        "mae_post_mean": 0.13020791113376617,
+        "rmse_post_mean": 0.1602746546268463,
+        "mae_prior_median": 0.3402068245343528,
+        "mae_ratio_to_prior": 0.3795151345623567,
+        "contraction": 0.8521770486870363,
+        "learned": true
+      },
+      "gamma_1": {
+        "mae_post_median": 0.6431109815374948,
+        "mae_post_mean": 0.6446211934089661,
+        "rmse_post_mean": 0.7892877459526062,
+        "mae_prior_median": 0.7692778814934284,
+        "mae_ratio_to_prior": 0.8359930748158247,
+        "contraction": 0.2735410756702028,
+        "learned": true
+      },
+      "gamma_2": {
+        "mae_post_median": 0.29935401632040887,
+        "mae_post_mean": 0.29931318759918213,
+        "rmse_post_mean": 0.34648555517196655,
+        "mae_prior_median": 0.30126114886878813,
+        "mae_ratio_to_prior": 0.9936695038323382,
+        "contraction": 0.03653603899742475,
+        "learned": false
+      },
+      "gamma_3": {
+        "mae_post_median": 0.01002357945130383,
+        "mae_post_mean": 0.0100115817040205,
+        "rmse_post_mean": 0.011589995585381985,
+        "mae_prior_median": 0.010007473413739998,
+        "mae_ratio_to_prior": 1.0016094009844403,
+        "contraction": 0.014400153112216874,
+        "learned": false
+      }
+    },
+    "Pulsar only": {
+      "gamma_0": {
+        "mae_post_median": 0.30102369679883123,
+        "mae_post_mean": 0.30207929015159607,
+        "rmse_post_mean": 0.3550451397895813,
+        "mae_prior_median": 0.3402068245343528,
+        "mae_ratio_to_prior": 0.8848255681256476,
+        "contraction": 0.25875650196629874,
+        "learned": true
+      },
+      "gamma_1": {
+        "mae_post_median": 0.7594030886121327,
+        "mae_post_mean": 0.762298583984375,
+        "rmse_post_mean": 0.8972877264022827,
+        "mae_prior_median": 0.7692778814934284,
+        "mae_ratio_to_prior": 0.987163555434448,
+        "contraction": 0.045024659891992336,
+        "learned": false
+      },
+      "gamma_2": {
+        "mae_post_median": 0.30162087682661515,
+        "mae_post_mean": 0.3017594516277313,
+        "rmse_post_mean": 0.3481462001800537,
+        "mae_prior_median": 0.30126114886878813,
+        "mae_ratio_to_prior": 1.0011940735112304,
+        "contraction": 0.029350173671144786,
+        "learned": false
+      },
+      "gamma_3": {
+        "mae_post_median": 0.01002603497814546,
+        "mae_post_mean": 0.010011913254857063,
+        "rmse_post_mean": 0.011591644026339054,
+        "mae_prior_median": 0.010007473413739998,
+        "mae_ratio_to_prior": 1.0018547702939662,
+        "contraction": 0.016288447273774542,
+        "learned": false
+      }
+    },
+    "GW+NICER": {
+      "gamma_0": {
+        "mae_post_median": 0.12374913800880313,
+        "mae_post_mean": 0.12469594180583954,
+        "rmse_post_mean": 0.15471449494361877,
+        "mae_prior_median": 0.3402068245343528,
+        "mae_ratio_to_prior": 0.36374678308755504,
+        "contraction": 0.8574276270032741,
+        "learned": true
+      },
+      "gamma_1": {
+        "mae_post_median": 0.6427687820219581,
+        "mae_post_mean": 0.6451869010925293,
+        "rmse_post_mean": 0.7891088128089905,
+        "mae_prior_median": 0.7692778814934284,
+        "mae_ratio_to_prior": 0.8355482426897893,
+        "contraction": 0.2545216625150575,
+        "learned": true
+      },
+      "gamma_2": {
+        "mae_post_median": 0.29952501763054895,
+        "mae_post_mean": 0.2995759844779968,
+        "rmse_post_mean": 0.346488893032074,
+        "mae_prior_median": 0.30126114886878813,
+        "mae_ratio_to_prior": 0.994237122029315,
+        "contraction": 0.03477662125309133,
+        "learned": false
+      },
+      "gamma_3": {
+        "mae_post_median": 0.01002063511093651,
+        "mae_post_mean": 0.010009950958192348,
+        "rmse_post_mean": 0.011586892418563366,
+        "mae_prior_median": 0.010007473413739998,
+        "mae_ratio_to_prior": 1.0013151868261214,
+        "contraction": 0.01580091292885677,
+        "learned": false
+      }
+    },
+    "All": {
+      "gamma_0": {
+        "mae_post_median": 0.13130099043622612,
+        "mae_post_mean": 0.13234582543373108,
+        "rmse_post_mean": 0.16562911868095398,
+        "mae_prior_median": 0.3402068245343528,
+        "mae_ratio_to_prior": 0.3859446106524763,
+        "contraction": 0.8368645896715861,
+        "learned": true
+      },
+      "gamma_1": {
+        "mae_post_median": 0.6359706439807924,
+        "mae_post_mean": 0.6379473805427551,
+        "rmse_post_mean": 0.7835991978645325,
+        "mae_prior_median": 0.7692778814934284,
+        "mae_ratio_to_prior": 0.8267112044689995,
+        "contraction": 0.26295132436920265,
+        "learned": true
+      },
+      "gamma_2": {
+        "mae_post_median": 0.2989084439808867,
+        "mae_post_mean": 0.2989077866077423,
+        "rmse_post_mean": 0.34625038504600525,
+        "mae_prior_median": 0.30126114886878813,
+        "mae_ratio_to_prior": 0.9921904802635996,
+        "contraction": 0.03617959850353991,
+        "learned": false
+      },
+      "gamma_3": {
+        "mae_post_median": 0.010020719567104194,
+        "mae_post_mean": 0.010009702295064926,
+        "rmse_post_mean": 0.011587176471948624,
+        "mae_prior_median": 0.010007473413739998,
+        "mae_ratio_to_prior": 1.0013236261358447,
+        "contraction": 0.01499411023883579,
+        "learned": false
+      }
+    }
+  },
+  "retrained": {
+    "GW only": {
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.12627132836356758,
+          "mae_post_mean": 0.1267925500869751,
+          "rmse_post_mean": 0.15716230869293213,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.3711604802061141,
+          "contraction": 0.8513043357011243,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.6643509981809329,
+          "mae_post_mean": 0.6661164164543152,
+          "rmse_post_mean": 0.8072608113288879,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.8636034054316017,
+          "contraction": 0.22935499298454753,
+          "learned": true
+        },
+        "gamma_2": {
+          "mae_post_median": 0.29927404752761505,
+          "mae_post_mean": 0.299539178609848,
+          "rmse_post_mean": 0.3467285931110382,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9934040570825861,
+          "contraction": 0.0364595072906817,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010025516019984252,
+          "mae_post_mean": 0.010017305612564087,
+          "rmse_post_mean": 0.011592384427785873,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0018029132327728,
+          "contraction": 0.025185238854890102,
+          "learned": false
+        }
+      },
+      "best_epoch": 145,
+      "epochs_run": 150,
+      "best_val_loss": 1.1699857541570493
+    },
+    "NICER only": {
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.12874050429835915,
+          "mae_post_mean": 0.12984958291053772,
+          "rmse_post_mean": 0.15986530482769012,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.37841834735258056,
+          "contraction": 0.8536788605863407,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.6395914216963574,
+          "mae_post_mean": 0.641633152961731,
+          "rmse_post_mean": 0.7867228388786316,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.8314179272315673,
+          "contraction": 0.2861513768876036,
+          "learned": true
+        },
+        "gamma_2": {
+          "mae_post_median": 0.2991747449762261,
+          "mae_post_mean": 0.29936739802360535,
+          "rmse_post_mean": 0.34656763076782227,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9930744342561385,
+          "contraction": 0.04487356293520761,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010022488591988711,
+          "mae_post_mean": 0.010014385916292667,
+          "rmse_post_mean": 0.011591868475079536,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.001500396516477,
+          "contraction": 0.034332134899366706,
+          "learned": false
+        }
+      },
+      "best_epoch": 142,
+      "epochs_run": 150,
+      "best_val_loss": 1.1529988032458809
+    },
+    "Pulsar only": {
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.2994590074159205,
+          "mae_post_mean": 0.29984375834465027,
+          "rmse_post_mean": 0.354042112827301,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.8802263382746524,
+          "contraction": 0.2886024420910247,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.7585795226149494,
+          "mae_post_mean": 0.76090407371521,
+          "rmse_post_mean": 0.8962361812591553,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.9860929852061913,
+          "contraction": 0.031509979039973324,
+          "learned": false
+        },
+        "gamma_2": {
+          "mae_post_median": 0.30110259342825885,
+          "mae_post_mean": 0.3015018105506897,
+          "rmse_post_mean": 0.3480381965637207,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9994736943640936,
+          "contraction": 0.019915986581598655,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010023051860783404,
+          "mae_post_mean": 0.010015998966991901,
+          "rmse_post_mean": 0.011592384427785873,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0015566813319752,
+          "contraction": 0.021435529386290564,
+          "learned": false
+        }
+      },
+      "best_epoch": 148,
+      "epochs_run": 150,
+      "best_val_loss": 1.387681053909272
+    },
+    "GW+NICER": {
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.1239551946260035,
+          "mae_post_mean": 0.12473452836275101,
+          "rmse_post_mean": 0.15472747385501862,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.36435246352175094,
+          "contraction": 0.86161326256904,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.6419949071314331,
+          "mae_post_mean": 0.6444550156593323,
+          "rmse_post_mean": 0.788835346698761,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.8345422669440385,
+          "contraction": 0.26777040087284243,
+          "learned": true
+        },
+        "gamma_2": {
+          "mae_post_median": 0.2993827572756054,
+          "mae_post_mean": 0.2994515597820282,
+          "rmse_post_mean": 0.3464694023132324,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9937649059620336,
+          "contraction": 0.030537850875462236,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010021117706484872,
+          "mae_post_mean": 0.010014612227678299,
+          "rmse_post_mean": 0.011591214686632156,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0013634103415294,
+          "contraction": 0.017250950645442353,
+          "learned": false
+        }
+      },
+      "best_epoch": 142,
+      "epochs_run": 150,
+      "best_val_loss": 1.1153460689923351
+    }
+  },
+  "catalog_size": 6,
+  "nested_observations": {
+    "GW only": {
+      "n_catalogs": 4000,
+      "n_obs": 2,
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.17977245024964214,
+          "mae_post_mean": 0.18110202252864838,
+          "rmse_post_mean": 0.23110249638557434,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.5284210582656592,
+          "contraction": 0.693118731184386,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.7235458467873687,
+          "mae_post_mean": 0.7257675528526306,
+          "rmse_post_mean": 0.8653749823570251,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.9405519958311055,
+          "contraction": 0.11033675016091204,
+          "learned": false
+        },
+        "gamma_2": {
+          "mae_post_median": 0.30105483997833654,
+          "mae_post_mean": 0.3011690080165863,
+          "rmse_post_mean": 0.3479161560535431,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9993151825543178,
+          "contraction": 0.030145204517049717,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010024820063036358,
+          "mae_post_mean": 0.010011556558310986,
+          "rmse_post_mean": 0.011587602086365223,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.001733369510884,
+          "contraction": 0.02202806608563823,
+          "learned": false
+        }
+      }
+    },
+    "NICER only": {
+      "n_catalogs": 4000,
+      "n_obs": 2,
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.16178533747419716,
+          "mae_post_mean": 0.16281454265117645,
+          "rmse_post_mean": 0.20105552673339844,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.47554994728761146,
+          "contraction": 0.7588246584668913,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.7174693253847217,
+          "mae_post_mean": 0.717441976070404,
+          "rmse_post_mean": 0.8602343201637268,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.9326530017889911,
+          "contraction": 0.14246667580005545,
+          "learned": false
+        },
+        "gamma_2": {
+          "mae_post_median": 0.3003351675892409,
+          "mae_post_mean": 0.30049318075180054,
+          "rmse_post_mean": 0.34740012884140015,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9969263169744117,
+          "contraction": 0.032255756723397644,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010023860240375236,
+          "mae_post_mean": 0.010011370293796062,
+          "rmse_post_mean": 0.011588932015001774,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0016374589227226,
+          "contraction": 0.019031510861664103,
+          "learned": false
+        }
+      }
+    },
+    "Pulsar only": {
+      "n_catalogs": 4000,
+      "n_obs": 2,
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.3195978900156915,
+          "mae_post_mean": 0.32154926657676697,
+          "rmse_post_mean": 0.3809603750705719,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.9394223365540385,
+          "contraction": 0.13724596427997637,
+          "learned": false
+        },
+        "gamma_1": {
+          "mae_post_median": 0.764882656290778,
+          "mae_post_mean": 0.7663615345954895,
+          "rmse_post_mean": 0.9023429155349731,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.9942865571617402,
+          "contraction": 0.05002560486314889,
+          "learned": false
+        },
+        "gamma_2": {
+          "mae_post_median": 0.3019219669636004,
+          "mae_post_mean": 0.30198585987091064,
+          "rmse_post_mean": 0.3484099209308624,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 1.002193505857936,
+          "contraction": 0.030266494163217583,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.01002611926104082,
+          "mae_post_mean": 0.01001300010830164,
+          "rmse_post_mean": 0.011592026799917221,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0018631922893966,
+          "contraction": 0.019693211442753933,
+          "learned": false
+        }
+      }
+    },
+    "GW+NICER": {
+      "n_catalogs": 4000,
+      "n_obs": 4,
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.1368049951903522,
+          "mae_post_mean": 0.13782747089862823,
+          "rmse_post_mean": 0.17106062173843384,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.4021230184832407,
+          "contraction": 0.826464971280926,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.6721779953857331,
+          "mae_post_mean": 0.6736650466918945,
+          "rmse_post_mean": 0.8186379075050354,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.8737778786526508,
+          "contraction": 0.20222878559174762,
+          "learned": true
+        },
+        "gamma_2": {
+          "mae_post_median": 0.2994319378390137,
+          "mae_post_mean": 0.29968389868736267,
+          "rmse_post_mean": 0.3468189537525177,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9939281549026716,
+          "contraction": 0.032656268493759244,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010022413830161397,
+          "mae_post_mean": 0.010010316967964172,
+          "rmse_post_mean": 0.011587574146687984,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.001492925916834,
+          "contraction": 0.0172372926909119,
+          "learned": false
+        }
+      }
+    },
+    "All": {
+      "n_catalogs": 4000,
+      "n_obs": 6,
+      "accuracy": {
+        "gamma_0": {
+          "mae_post_median": 0.13130099043622612,
+          "mae_post_mean": 0.13234582543373108,
+          "rmse_post_mean": 0.16562911868095398,
+          "mae_prior_median": 0.3402068245343528,
+          "mae_ratio_to_prior": 0.3859446106524763,
+          "contraction": 0.8368645896715861,
+          "learned": true
+        },
+        "gamma_1": {
+          "mae_post_median": 0.6359706439807924,
+          "mae_post_mean": 0.6379473805427551,
+          "rmse_post_mean": 0.7835991978645325,
+          "mae_prior_median": 0.7692778814934284,
+          "mae_ratio_to_prior": 0.8267112044689995,
+          "contraction": 0.26295132436920265,
+          "learned": true
+        },
+        "gamma_2": {
+          "mae_post_median": 0.2989084439808867,
+          "mae_post_mean": 0.2989077866077423,
+          "rmse_post_mean": 0.34625038504600525,
+          "mae_prior_median": 0.30126114886878813,
+          "mae_ratio_to_prior": 0.9921904802635996,
+          "contraction": 0.03617959850353991,
+          "learned": false
+        },
+        "gamma_3": {
+          "mae_post_median": 0.010020719567104194,
+          "mae_post_mean": 0.010009702295064926,
+          "rmse_post_mean": 0.011587176471948624,
+          "mae_prior_median": 0.010007473413739998,
+          "mae_ratio_to_prior": 1.0013236261358447,
+          "contraction": 0.01499411023883579,
+          "learned": false
+        }
+      }
+    }
+  }
+}
